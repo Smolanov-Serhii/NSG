@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d7572b14-04ac-450f-837c-829c0af2228a" name="uashared22.twinservers.net" url="http://uashared22.twinservers.net">
+        <fileTransfer rootFolder="/nsg.front-end-dev.com.ua" host="uashared22.twinservers.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
