@@ -1,5 +1,5 @@
 html{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 135%;
@@ -9,11 +9,14 @@ html{
   box-sizing: border-box;
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
+  font-family: 'Raleway', sans-serif;
 }
-
+body{
+  padding: 0;
+  margin: 0;
+}
 a{
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 ul, ol{
@@ -26,7 +29,6 @@ img{
   max-width: 100%;
 }
 p, pre{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.5em;
@@ -48,7 +50,6 @@ p, pre{
   }
 }
 h1{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 36px;
   @media all and (max-width: 1200px) {
@@ -78,7 +79,6 @@ em{
   font-style: italic;
 }
 h2{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 42px;
   @media all and (max-width: 1200px) {
@@ -95,124 +95,20 @@ h2{
   }
 }
 h3{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 36px;
 }
 h4{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 30px;
 }
 h5{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 24px;
 }
 h6{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 18px;
-}
-a.button{
-  background-color: #FF2F38;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  transition: color .3s;
-  padding: 14px 30px;
-  &:hover{
-    background-color: #D61B23;
-  }
-}
-a{
-  color: #D61B23;
-}
-.woocommerce table.shop_attributes th{
-  width: 20%;
-}
-table{
-  th{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-  }
-  td{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-  }
-  th, td{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 155%;
-    color: #000000;
-    border-top: 1px solid #0E5A9E;
-    padding: 10px;
-    text-align: left;
-    p{
-      padding-left: 20px!important;
-    }
-    @media all and (max-width: 830px) {
-      font-size: 14px;
-    }
-    @media all and (max-width: 600px) {
-      font-size: 12px;
-      padding: 8px;
-    }
-    @media all and (max-width: 400px) {
-      font-size: 10px;
-      padding: 8px;
-    }
-  }
-  tr{
-    &:nth-child(odd){
-      background-color: #DFF7FF;
-    }
-    td, th{
-      padding: 10px;
-    }
-
-  }
-}
-.section-title{
-  font-size: 40px;
-  line-height: 122.5%;
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  margin: 60px auto;
-  max-width: 1400px;
-  padding: 0 100px;
-  text-align: center;
-  @media all and (max-width: 1000px) {
-    padding: 0 50px;
-    font-size: 36px;
-    margin: 40px auto;
-  }
-  @media all and (max-width: 900px) {
-    font-size: 32px;
-    padding: 0;
-    margin: 30px auto;
-  }
-  @media all and (max-width: 660px) {
-    font-size: 24px;
-    margin: 20px auto;
-  }
-  @media all and (max-width: 500px) {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    max-width: 80%;
-  }
 }
 
 *{
@@ -229,6 +125,10 @@ body{
   width: auto;
   padding: 0 100px;
 }
-.right-container-wide{
+.right-padding{
+  @include padding_right;
+}
 
+.left-padding{
+  @include padding_left;
 }

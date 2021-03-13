@@ -9,3 +9,15 @@ $green: #41B718;
 $yellow: #F0DD45;
 $black: 000000;
 $hoverbutton: #41B718;
+
+$red-color: #FF2F38;
+$yellow-color: #F4D21F;
+$transition: 0.2s;
+
+@mixin padding_left {
+  padding-left: calc((100vw - 1600px) / 2);
+}
+
+@mixin padding_right {
+  padding-right: calc((100vw - 1600px) / 2);
+}
