@@ -18,6 +18,7 @@ body{
 a{
   text-decoration: none;
   font-weight: 400;
+  color: #FF2F38;
 }
 ul, ol{
 
@@ -30,9 +31,20 @@ img{
 }
 p, pre{
   font-weight: 300;
-  font-size: 14px;
-  line-height: 1.5em;
-  margin-bottom: 0.9em;
+  font-size: 18px;
+  line-height: 139%;
+  margin-bottom: 1.2em;
+  color: #2D2222;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  a{
+    text-decoration: underline;
+    color: #FF2F38;
+    font-size: 18px;
+    line-height: 139%;
+    letter-spacing: 0.03em;
+  }
   @media all and (max-width: 1200px) {
     font-size: 17px;
   }
@@ -79,8 +91,10 @@ em{
   font-style: italic;
 }
 h2{
-  font-weight: 500;
-  font-size: 42px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 116%;
+  color: #2D2222;
   @media all and (max-width: 1200px) {
     font-size: 34px;
   }
@@ -121,9 +135,14 @@ body{
 }
 
 .container-wide{
-  max-width: 1800px;
+  margin-left: calc((100vw - 1600px) / 2);
+  margin-right: calc((100vw - 1600px) / 2);
   width: auto;
-  padding: 0 100px;
+  @media all and (max-width: 1800px) {
+    width: 100%;
+    padding: 0 100px;
+    margin: auto;
+  }
 }
 .right-padding{
   @include padding_right;
@@ -131,4 +150,62 @@ body{
 
 .left-padding{
   @include padding_left;
+}
+
+.red-btn{
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 22px 11px 50px;
+  background-color: $red-color;
+  border-radius: 0 0 0 50px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 122%;
+  transition: $transition;
+  svg{
+    margin-left: 16px;
+  }
+  &:hover{
+    background-color: #D61B23;
+  }
+}
+.white-button{
+  width: calc(100% - 80px);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid $red-color;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 116%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2D2222;
+  padding: 10px;
+  transition: $transition;
+  &:hover{
+    background-color: $red-color;
+    color: white;
+  }
+}
+
+.single-item-title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 116%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #2D2222;
+}
+.single-item-desc{
+  font-size: 14px;
+  line-height: 114%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #397589;
 }

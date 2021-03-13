@@ -16,8 +16,18 @@ $transition: 0.2s;
 
 @mixin padding_left {
   padding-left: calc((100vw - 1600px) / 2);
+  @media all and (max-width: 1800px) {
+    padding-left: 100px;
+  }
 }
 
 @mixin padding_right {
   padding-right: calc((100vw - 1600px) / 2);
+  @media all and (max-width: 1800px) {
+    padding-right: 100px;
+  }
+}
+@mixin transition{
+  transition: 0.1s;
+  transition-timing-function: ease-in;
 }

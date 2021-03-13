@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <title>Main Page</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
     <link href="../dist/css/main.css" rel="stylesheet">
     <link href="../dist/css/desktop.css" rel="stylesheet">
     <link href="../dist/css/mobile.css" rel="stylesheet">
@@ -16,8 +22,7 @@
         <div class="header__logo">
             <a href="#" class="header__home" target="_self">
                 <picture>
-                    <source srcset="images/logo-mobile.svg" alt="Logo" type="image/webp" class="img-responsive"
-                            media="(max-width: 600px)">
+                    <source srcset="images/logo-mobile.svg" media="(max-width: 600px)">
                     <img src="images/logo-pc.svg" alt="logo" class="header__logo-img">
                 </picture>
             </a>
@@ -27,7 +32,7 @@
                 <div class="header__page">
                     <nav>
                         <ul class="page-manu">
-                            <li class="menu-item">
+                            <li class="menu-item active-menu"> <!-- На активный пункт меню навешиваем "active-menu" -->
                                 <a href=""><img src="/images/home-icon.svg" alt="Home Page">Home</a>
                             </li>
                             <li class="menu-item">
