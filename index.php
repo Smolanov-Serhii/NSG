@@ -1130,7 +1130,7 @@
                     </svg>
                 </a>
             </div>
-            <div class="popular__slider container-wide active-tab" id="popular_2">
+            <div class="popular__slider container-wide" id="popular_2">
                 <div class="popular__slider-wrapper">
                     <a href="#" class="popular__slide">
                         <div class="popular__slide-img">
@@ -1268,7 +1268,7 @@
                     </svg>
                 </a>
             </div>
-            <div class="popular__slider container-wide active-tab" id="popular_3">
+            <div class="popular__slider container-wide" id="popular_3">
                 <div class="popular__slider-wrapper">
                     <a href="#" class="popular__slide">
                         <div class="popular__slide-img">
