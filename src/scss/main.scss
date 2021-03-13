@@ -750,3 +750,55 @@
     }
   }
 }
+.peoples{
+  margin-top: 78px;
+  padding-bottom: 75px;
+  &__container{
+    position: relative;
+  }
+  &__title{
+
+  }
+  &__about{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #2D2222;
+    margin-top: 26px;
+    @include transition;
+  }
+  &__img{
+    height: 366px;
+    border-radius: 10px;
+    overflow: hidden;
+    picture{
+      width: 100%;
+      height: 100%;
+      img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &__list{
+    display: flex;
+    margin-top: 43px;
+    margin-right: -20px;
+  }
+  &__item{
+    width: calc(20% - 20px);
+    margin-right: 20px;
+    &:hover{
+      .peoples__about{
+        color: $red-color;
+      }
+    }
+  }
+  &__lnk{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

@@ -1147,3 +1147,42 @@ body {
       padding: 14px 15px 15px 15px; }
     .popular__slide-subtitle {
       margin-top: 31px; }
+
+.peoples {
+  margin-top: 78px;
+  padding-bottom: 75px; }
+  .peoples__container {
+    position: relative; }
+  .peoples__about {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #2D2222;
+    margin-top: 26px;
+    transition: 0.1s;
+    transition-timing-function: ease-in; }
+  .peoples__img {
+    height: 366px;
+    border-radius: 10px;
+    overflow: hidden; }
+    .peoples__img picture {
+      width: 100%;
+      height: 100%; }
+      .peoples__img picture img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+  .peoples__list {
+    display: flex;
+    margin-top: 43px;
+    margin-right: -20px; }
+  .peoples__item {
+    width: calc(20% - 20px);
+    margin-right: 20px; }
+    .peoples__item:hover .peoples__about {
+      color: #FF2F38; }
+  .peoples__lnk {
+    position: absolute;
+    top: 0;
+    right: 0; }
