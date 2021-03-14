@@ -22,6 +22,7 @@ const sass = require('gulp-sass');
 const styleFiles = [
    './src/scss/main.scss',
    './src/scss/desktop.scss',
+   './src/scss/sidebar.scss',
    './src/scss/mobile.scss'
 ]
 //Порядок подключения js файлов

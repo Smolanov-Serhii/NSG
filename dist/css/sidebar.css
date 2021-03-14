@@ -1,0 +1,177 @@
+.sidebar-category {
+  width: 32%; }
+
+.category-sidebar-left-padding {
+  padding-left: 84px; }
+
+.sb-best {
+  padding-bottom: 62px; }
+  .sb-best__title {
+    margin-top: 45px; }
+  .sb-best__content {
+    margin-top: 30px; }
+  .sb-best__item {
+    display: flex;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    box-shadow: 0 0 25px rgba(45, 34, 34, 0.07);
+    border-radius: 10px;
+    overflow: hidden; }
+    .sb-best__item:last-child {
+      margin-bottom: 0; }
+  .sb-best__desc {
+    width: 50%;
+    height: auto;
+    padding: 17px 22px 20px 22px; }
+  .sb-best__gift {
+    display: flex; }
+    .sb-best__gift svg {
+      margin-right: 15px;
+      width: 19px;
+      height: 19px; }
+  .sb-best__total {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #00DB5C; }
+  .sb-best__play {
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2D2222;
+    padding: 9px;
+    border: 2px solid #FF2F38;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    transition-timing-function: ease-in; }
+    .sb-best__play:hover {
+      background-color: #FF2F38;
+      color: white; }
+  .sb-best__image {
+    height: 108px;
+    width: 50%; }
+    .sb-best__image picture {
+      display: block;
+      width: 100%;
+      height: 100%; }
+      .sb-best__image picture img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+  .sb-best__lnk {
+    margin-top: 24px; }
+
+.sb-play {
+  background-color: #CBE7F0;
+  padding-top: 42px;
+  display: flex;
+  flex-direction: column; }
+  .sb-play__list {
+    margin-top: 45px;
+    counter-reset: section;
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 77px; }
+  .sb-play__item {
+    display: flex;
+    align-items: flex-end; }
+    .sb-play__item:hover a {
+      color: #FF2F38; }
+    .sb-play__item a {
+      color: #000000;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 116%;
+      letter-spacing: 0.03em;
+      padding-bottom: 15px;
+      border-bottom: 1px dotted #BDBDBD;
+      transition: 0.1s;
+      transition-timing-function: ease-in; }
+    .sb-play__item:before {
+      counter-increment: section;
+      content: "" counter(section);
+      width: 24px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 114%;
+      letter-spacing: 0.03em;
+      color: #397589;
+      display: block;
+      padding-bottom: 16px; }
+
+.sb-pers {
+  padding-top: 75px; }
+  .sb-pers__content {
+    padding: 0 32px;
+    margin-top: 51px;
+    display: block; }
+    .sb-pers__content:hover .sb-pers__desc {
+      color: #FF2F38; }
+  .sb-pers__img {
+    height: 366px;
+    border-radius: 10px;
+    overflow: hidden; }
+    .sb-pers__img picture {
+      width: 100%;
+      height: 100%; }
+      .sb-pers__img picture img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+  .sb-pers__desc {
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #000000;
+    transition: 0.1s;
+    transition-timing-function: ease-in; }
+
+.sb-last-news {
+  margin-top: 75px; }
+  .sb-last-news__content {
+    margin-top: 33px; }
+  .sb-last-news__item {
+    background: #DFF7FF;
+    border-radius: 5px;
+    padding: 18px 23px;
+    display: block;
+    margin-bottom: 15px;
+    transition: 0.1s;
+    transition-timing-function: ease-in; }
+    .sb-last-news__item:last-child {
+      margin-bottom: 0; }
+    .sb-last-news__item:hover {
+      background: #F4FCFF; }
+      .sb-last-news__item:hover .sb-last-news__desc {
+        color: #FF2F38; }
+  .sb-last-news__desc {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-top: 9px;
+    transition: 0.1s;
+    transition-timing-function: ease-in; }
+  .sb-last-news__date {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.03em;
+    color: #397589; }
+  .sb-last-news__lnk {
+    margin-top: 35px; }

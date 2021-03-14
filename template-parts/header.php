@@ -14,9 +14,10 @@
     <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet">
     <link href="../dist/css/main.css" rel="stylesheet">
     <link href="../dist/css/desktop.css" rel="stylesheet">
+    <link href="../dist/css/sidebar.css" rel="stylesheet">
     <link href="../dist/css/mobile.css" rel="stylesheet">
 </head>
-<body class="main-page">
+<body>
 <header id="header" class="header">
     <div class="header__container left-padding">
         <div class="header__logo">
