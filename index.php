@@ -1408,7 +1408,76 @@
             </div>
         </div>
     </section>
-
+    <section class="peoples container-wide">
+        <div class="peoples__container">
+            <h2 class="peoples__title">
+                In touch with pro
+            </h2>
+            <div class="peoples__list">
+                <a href="" class="peoples__item">
+                    <div class="peoples__img">
+                        <picture>
+                            <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                            <img src="images/img-test/pers.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="peoples__about">
+                        Little Chat’ with Pawel Piotrowski, New Games Manager at Yggdrasil
+                    </div>
+                </a>
+                <a href="" class="peoples__item">
+                    <div class="peoples__img">
+                        <picture>
+                            <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                            <img src="images/img-test/pers.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="peoples__about">
+                        Little Chat’ with Pawel Piotrowski, New Games Manager at Yggdrasil
+                    </div>
+                </a>
+                <a href="" class="peoples__item">
+                    <div class="peoples__img">
+                        <picture>
+                            <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                            <img src="images/img-test/pers.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="peoples__about">
+                        Little Chat’ with Pawel Piotrowski, New Games Manager at Yggdrasil
+                    </div>
+                </a>
+                <a href="" class="peoples__item">
+                    <div class="peoples__img">
+                        <picture>
+                            <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                            <img src="images/img-test/pers.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="peoples__about">
+                        Little Chat’ with Pawel Piotrowski, New Games Manager at Yggdrasil
+                    </div>
+                </a>
+                <a href="" class="peoples__item">
+                    <div class="peoples__img">
+                        <picture>
+                            <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                            <img src="images/img-test/pers.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="peoples__about">
+                        Little Chat’ with Pawel Piotrowski, New Games Manager at Yggdrasil
+                    </div>
+                </a>
+            </div>
+            <a href="#" class="peoples__lnk red-btn">
+                Show more
+                <svg width="17" height="9" viewBox="0 0 17 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1716 0.96444L16.3536 4.14642C16.5488 4.34168 16.5488 4.65826 16.3536 4.85353L13.1716 8.03551C12.9763 8.23077 12.6597 8.23077 12.4645 8.03551C12.2692 7.84025 12.2692 7.52366 12.4645 7.3284L14.7929 4.99997H0V3.99997H14.7929L12.4645 1.67155C12.2692 1.47628 12.2692 1.1597 12.4645 0.96444C12.6597 0.769178 12.9763 0.769178 13.1716 0.96444Z" fill="#F4D21F"></path>
+                </svg>
+            </a>
+        </div>
+    </section>
 <?php
 include ("template-parts/footer.php");
 ?>
