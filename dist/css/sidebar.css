@@ -175,3 +175,30 @@
     color: #397589; }
   .sb-last-news__lnk {
     margin-top: 35px; }
+
+.sb-providers {
+  margin-top: 75px; }
+  .sb-providers__list {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 21px 11px 11px 21px;
+    margin-top: 32px; }
+  .sb-providers__item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: calc(33.3333% - 10px);
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow: hidden; }
+    .sb-providers__item picture {
+      width: 100%;
+      height: 100%;
+      display: block; }
+      .sb-providers__item picture img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }

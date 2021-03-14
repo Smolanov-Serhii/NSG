@@ -2,3 +2,5 @@
   display: flex; }
   .category-page .main-content {
     width: 68%; }
+    .category-page .main-content .text-block__container {
+      margin-right: 0; }

@@ -243,3 +243,183 @@
         </svg>
     </a>
 </section>
+<section class="sb-providers right-padding category-sidebar-left-padding">
+    <h2 class="sb-providers__title">
+        Slots by Providers
+    </h2>
+    <div class="sb-providers__container">
+        <div class="sb-providers__list" style="border: 2px solid #FF2F38;">
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="sb-providers right-padding category-sidebar-left-padding">
+    <h2 class="sb-providers__title">
+        Slots by Providers
+    </h2>
+    <div class="sb-providers__container">
+        <div class="sb-providers__list" style="background-color: #DFF7FF; border: 2px solid #FF2F38;">
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+            <a href="#" class="sb-providers__item">
+                <picture>
+                    <source srcset="images/img-test/102x60.jpg" media="(max-width: 600px)">
+                    <img src="images/img-test/102x60.jpg" alt="" class="header__logo-img">
+                </picture>
+            </a>
+        </div>
+    </div>
+</section>

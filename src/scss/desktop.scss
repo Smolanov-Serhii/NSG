@@ -2,5 +2,8 @@
   display: flex;
   .main-content{
     width: 68%;
+    .text-block__container{
+      margin-right: 0;
+    }
   }
 }
