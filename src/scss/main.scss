@@ -2,7 +2,9 @@
 @import "vars";
 @import "default";
 
-
+html{
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
 
 .header{
   background-color: $red-color;

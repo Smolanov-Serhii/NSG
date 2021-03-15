@@ -561,6 +561,9 @@ table {
   table tr:nth-child(odd) {
     background-color: #DFF7FF; }
 
+html {
+  font-feature-settings: 'pnum' on, 'lnum' on; }
+
 .header {
   background-color: #FF2F38;
   position: sticky;
