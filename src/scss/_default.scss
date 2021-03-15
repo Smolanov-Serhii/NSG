@@ -39,11 +39,14 @@ p, pre{
     margin-bottom: 0;
   }
   a{
-    text-decoration: underline;
+    text-decoration: none;
     color: #FF2F38;
     font-size: 18px;
     line-height: 139%;
     letter-spacing: 0.03em;
+    &:hover{
+      text-decoration: underline;
+    }
   }
   @media all and (max-width: 1200px) {
     font-size: 17px;

@@ -361,11 +361,13 @@ p, pre {
   p:last-child, pre:last-child {
     margin-bottom: 0; }
   p a, pre a {
-    text-decoration: underline;
+    text-decoration: none;
     color: #FF2F38;
     font-size: 18px;
     line-height: 139%;
     letter-spacing: 0.03em; }
+    p a:hover, pre a:hover {
+      text-decoration: underline; }
   @media all and (max-width: 1200px) {
     p, pre {
       font-size: 17px; } }
@@ -1432,17 +1434,16 @@ body {
 .category-first {
   margin-top: 45px; }
   .category-first__desc {
-    margin-top: 20px; }
-  .category-first__content {
-    margin-top: 45px; }
-    .category-first__content .newonline__slots-list {
-      margin-top: 55px; }
-    .category-first__content .newonline__slots-img {
-      height: 180px; }
-    .category-first__content .newonline__slots-subtitle {
-      margin-top: 25px; }
-    .category-first__content .newonline__slots-content {
-      padding: 13px 15px 14px 15px; }
+    margin-top: 20px;
+    margin-bottom: 45px; }
+  .category-first__content .newonline__slots-list {
+    margin-top: 55px; }
+  .category-first__content .newonline__slots-img {
+    height: 180px; }
+  .category-first__content .newonline__slots-subtitle {
+    margin-top: 25px; }
+  .category-first__content .newonline__slots-content {
+    padding: 13px 15px 14px 15px; }
 
 .cat-play {
   padding-right: 56px;

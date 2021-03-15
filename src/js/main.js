@@ -11,11 +11,24 @@ $(document ).ready(function() {
         });
     }
 
-    if ($('.cat-play').length && $('.sb-play').length){
+    if ($('.slot-category-page .cat-play').length && $('.slot-category-page .sb-play').length){
         DublicateHeight();
         function DublicateHeight(){
             let DonorHeight = $('.cat-play').height();
             $('.sb-play').outerHeight(DonorHeight);
+        }
+
+        $( window ).resize(function() {
+            DublicateHeight();
+        });
+
+    }
+
+    if ($('.slot-category-page .category-first').length && $('.slot-category-page .sb-best').length){
+        DublicateHeight();
+        function DublicateHeight(){
+            let DonorHeight = $('.category-first').height();
+            $('.sb-best').outerHeight(DonorHeight);
         }
 
         $( window ).resize(function() {

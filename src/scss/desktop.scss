@@ -1,9 +1,50 @@
-.category-page{
+.slot-category-page, .casino-category-page, .news-category-page{
   display: flex;
   .main-content{
     width: 68%;
     .text-block__container{
       margin-right: 0;
     }
+  }
+}
+.casino-category-page{
+  .cat-play{
+    .best-casinos__item{
+      margin-bottom: 50px;
+    }
+  }
+  .sb-best{
+    padding-bottom: 45px;
+  }
+}
+.news-category-page{
+  .category-first{
+    &:first-child{
+      .newonline__slots-list{
+        margin-top: 55px;
+      }
+    }
+    .newonline__slots-list{
+      margin-right: -26px;
+      padding-bottom: 15px;
+      margin-top: 45px;
+    }
+    .newonline__slots-item{
+      width: calc(33.333% - 26px);
+      margin-right: 26px;
+      margin-bottom: 30px;
+    }
+    .newonline__slots-img{
+      height: 188px;
+    }
+    .newonline__slots-content{
+      padding: 20px 29px 50px 29px;
+    }
+    .newonline__slots-title{
+      text-align: left;
+    }
+  }
+  .sb-best{
+    padding-bottom: 0;
   }
 }
