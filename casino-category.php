@@ -809,9 +809,9 @@ include ("template-parts/breadcrumbs.php");
                                 <span class="safe">Play Safe</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="page-pagination">
-
+                        <?php
+                        include("template-parts/pagination.php");
+                        ?>
                     </div>
                     <a href="#" class="best-casinos__lnk red-btn">
                         Show more

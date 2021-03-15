@@ -231,3 +231,23 @@ body{
   letter-spacing: 0.03em;
   color: #397589;
 }
+
+table{
+  width: calc(33.333% - 37px);
+  border-top: 1px solid #397589;
+  border-bottom: 1px solid #397589;
+  td{
+    padding: 14px 27px;
+    border: 1px solid #397589;
+    font-size: 16px;
+    line-height: 118%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2D2222;
+  }
+  tr{
+    &:nth-child(odd){
+      background-color: #DFF7FF;
+    }
+  }
+}

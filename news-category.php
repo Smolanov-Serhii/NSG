@@ -782,6 +782,9 @@ include("template-parts/breadcrumbs.php");
                                     </div>
                                 </a>
                             </div>
+                            <?php
+                            include("template-parts/pagination.php");
+                            ?>
                         </div>
                     </div>
                     <div class="category-first__best">

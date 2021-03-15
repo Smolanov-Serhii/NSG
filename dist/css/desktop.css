@@ -1,3 +1,6 @@
+.main-page .news .news__date {
+  display: none; }
+
 .slot-category-page, .casino-category-page, .news-category-page {
   display: flex; }
   .slot-category-page .main-content, .casino-category-page .main-content, .news-category-page .main-content {
@@ -5,14 +8,31 @@
     .slot-category-page .main-content .text-block__container, .casino-category-page .main-content .text-block__container, .news-category-page .main-content .text-block__container {
       margin-right: 0; }
 
-.casino-category-page .cat-play .best-casinos__item {
-  margin-bottom: 50px; }
+.casino-category-page .pagination {
+  padding-right: 60px; }
+
+.casino-category-page .cat-play {
+  padding-right: 0; }
+  .casino-category-page .cat-play .best-casinos__content {
+    margin-right: 56px; }
+  .casino-category-page .cat-play .best-casinos__item {
+    margin-bottom: 50px; }
 
 .casino-category-page .sb-best {
   padding-bottom: 45px; }
 
+.news-category-page .cat-play {
+  padding-right: 0; }
+  .news-category-page .cat-play .best-casinos__content {
+    margin-right: 56px; }
+  .news-category-page .cat-play .best-casinos__item {
+    margin-bottom: 50px; }
+
 .news-category-page .category-first:first-child .newonline__slots-list {
   margin-top: 55px; }
+
+.news-category-page .category-first .newonline__slots-date {
+  padding-left: 29px; }
 
 .news-category-page .category-first .newonline__slots-list {
   margin-right: -26px;
@@ -35,3 +55,25 @@
 
 .news-category-page .sb-best {
   padding-bottom: 0; }
+
+.news-article .news, .slot-article .news {
+  padding-bottom: 45px; }
+
+.news-article .newonline, .slot-article .newonline {
+  background-color: transparent;
+  margin-top: 73px; }
+  .news-article .newonline__slots, .slot-article .newonline__slots {
+    padding-top: 0;
+    width: 100%; }
+    .news-article .newonline__slots-list, .slot-article .newonline__slots-list {
+      margin-top: 40px;
+      padding-bottom: 138px; }
+    .news-article .newonline__slots-item, .slot-article .newonline__slots-item {
+      width: calc(20% - 20px);
+      margin-bottom: 20px; }
+
+.slot-article .newonline__slots-list {
+  padding-bottom: 56px; }
+
+.slot-article .best-casinos__container {
+  padding-bottom: 31px; }

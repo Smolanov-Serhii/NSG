@@ -7,12 +7,12 @@
             <a href="#" class="news__item">
                 <div class="news__image">
                     <picture>
-                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)">
+                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)" type="image/webp">
                         <img src="images/img-test/365x188.jpg" alt="">
                     </picture>
-                    <time class="news__date">
+                    <div class="news__date">
                         14 February 2021
-                    </time>
+                    </div>
                 </div>
                 <div class="news__item-title">
                     LuckyStreak becomes the latest Yggdrasil Franchise partner
@@ -21,12 +21,12 @@
             <a href="#" class="news__item">
                 <div class="news__image">
                     <picture>
-                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)">
+                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)" type="image/webp">
                         <img src="images/img-test/365x188.jpg" alt="">
                     </picture>
-                    <time class="news__date">
+                    <div class="news__date">
                         14 February 2021
-                    </time>
+                    </div>
                 </div>
                 <div class="news__item-title">
                     LuckyStreak becomes the latest Yggdrasil Franchise partner
@@ -35,12 +35,12 @@
             <a href="#" class="news__item">
                 <div class="news__image">
                     <picture>
-                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)">
+                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)" type="image/webp">
                         <img src="images/img-test/365x188.jpg" alt="">
                     </picture>
-                    <time class="news__date">
+                    <div class="news__date">
                         14 February 2021
-                    </time>
+                    </div>
                 </div>
                 <div class="news__item-title">
                     LuckyStreak becomes the latest Yggdrasil Franchise partner
@@ -49,12 +49,12 @@
             <a href="#" class="news__item">
                 <div class="news__image">
                     <picture>
-                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)">
+                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)" type="image/webp">
                         <img src="images/img-test/365x188.jpg" alt="">
                     </picture>
-                    <time class="news__date">
+                    <div class="news__date">
                         14 February 2021
-                    </time>
+                    </div>
                 </div>
                 <div class="news__item-title">
                     LuckyStreak becomes the latest Yggdrasil Franchise partner
@@ -63,12 +63,12 @@
             <a href="#" class="news__item">
                 <div class="news__image">
                     <picture>
-                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)">
+                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)" type="image/webp">
                         <img src="images/img-test/365x188.jpg" alt="">
                     </picture>
-                    <time class="news__date">
+                    <div class="news__date">
                         14 February 2021
-                    </time>
+                    </div>
                 </div>
                 <div class="news__item-title">
                     LuckyStreak becomes the latest Yggdrasil Franchise partner
@@ -77,12 +77,12 @@
             <a href="#" class="news__item">
                 <div class="news__image">
                     <picture>
-                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)">
+                        <source srcset="images/img-test/365x188.jpg" media="(max-width: 600px)" type="image/webp">
                         <img src="images/img-test/365x188.jpg" alt="">
                     </picture>
-                    <time class="news__date">
+                    <div class="news__date">
                         14 February 2021
-                    </time>
+                    </div>
                 </div>
                 <div class="news__item-title">
                     LuckyStreak becomes the latest Yggdrasil Franchise partner

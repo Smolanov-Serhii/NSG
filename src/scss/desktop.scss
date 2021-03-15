@@ -1,3 +1,10 @@
+.main-page{
+  .news{
+    .news__date{
+      display: none;
+    }
+  }
+}
 .slot-category-page, .casino-category-page, .news-category-page{
   display: flex;
   .main-content{
@@ -8,7 +15,14 @@
   }
 }
 .casino-category-page{
+  .pagination{
+    padding-right: 60px;
+  }
   .cat-play{
+    padding-right: 0;
+    .best-casinos__content{
+      margin-right: 56px;
+    }
     .best-casinos__item{
       margin-bottom: 50px;
     }
@@ -18,11 +32,23 @@
   }
 }
 .news-category-page{
+  .cat-play{
+    padding-right: 0;
+    .best-casinos__content{
+      margin-right: 56px;
+    }
+    .best-casinos__item{
+      margin-bottom: 50px;
+    }
+  }
   .category-first{
     &:first-child{
       .newonline__slots-list{
         margin-top: 55px;
       }
+    }
+    .newonline__slots-date{
+      padding-left: 29px;
     }
     .newonline__slots-list{
       margin-right: -26px;
@@ -46,5 +72,35 @@
   }
   .sb-best{
     padding-bottom: 0;
+  }
+}
+.news-article, .slot-article{
+  .news{
+    padding-bottom: 45px;
+  }
+  .newonline{
+    background-color: transparent;
+    margin-top: 73px;
+    &__slots{
+      padding-top: 0;
+      width: 100%;
+      &-list{
+        margin-top: 40px;
+        padding-bottom: 138px;
+      }
+
+      &-item{
+        width: calc(20% - 20px);
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.slot-article{
+  .newonline__slots-list {
+    padding-bottom: 56px;
+  }
+  .best-casinos__container{
+    padding-bottom: 31px;
   }
 }

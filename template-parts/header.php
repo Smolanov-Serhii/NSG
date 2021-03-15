@@ -21,9 +21,9 @@
 <header id="header" class="header">
     <div class="header__container left-padding">
         <div class="header__logo">
-            <a href="#" class="header__home" target="_self">
+            <a href="index.php" class="header__home" target="_self">
                 <picture>
-                    <source srcset="images/logo-mobile.svg" media="(max-width: 600px)">
+                    <source srcset="images/logo-mobile.svg" media="(max-width: 600px)" type="image/webp">
                     <img src="images/logo-pc.svg" alt="logo" class="header__logo-img">
                 </picture>
             </a>
@@ -56,7 +56,7 @@
                     </nav>
                 </div>
                 <div class="search-block">
-                    <form method="get" action="">
+                    <form method="get" action="send.php">
                         <input type="text" name="search" placeholder="Search">
                         <button type="submit">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -93,13 +93,13 @@
                 <div class="header__slots-navigate">
                     <div class="header__slots-prev">
                         <picture>
-                            <source srcset="images/slots-prev-mob.svg" alt="Next Slot" type="image/webp" media="(max-width: 600px)">
+                            <source srcset="images/slots-prev-mob.svg" type="image/webp" media="(max-width: 600px)">
                             <img src="images/slots-prev-pc.svg" alt="Next Slot">
                         </picture>
                     </div>
                     <div class="header__slots-next">
                         <picture>
-                            <source srcset="images/slots-next-mob.svg" alt="Next Slot" type="image/webp" media="(max-width: 600px)">
+                            <source srcset="images/slots-next-mob.svg" type="image/webp" media="(max-width: 600px)">
                             <img src="images/slots-next-pc.svg" alt="Next Slot">
                         </picture>
                     </div>

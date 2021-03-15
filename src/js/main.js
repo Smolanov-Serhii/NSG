@@ -24,6 +24,19 @@ $(document ).ready(function() {
 
     }
 
+    if ($('.single-slot-article__item').length && $('.single-slot-article__desc').length){
+        DublicateHeight();
+        function DublicateHeight(){
+            let DonorHeight = $('.single-slot-article__item').height();
+            $('.single-slot-article__desc').outerHeight(DonorHeight);
+        }
+
+        $( window ).resize(function() {
+            DublicateHeight();
+        });
+
+    }
+
     if ($('.slot-category-page .category-first').length && $('.slot-category-page .sb-best').length){
         DublicateHeight();
         function DublicateHeight(){
@@ -45,6 +58,18 @@ $(document ).ready(function() {
             speed: 300,
             slidesToShow: 4,
             slidesToScroll: 4,
+        });
+    }
+
+    if ($('.single-slot-article__items').length){
+        $('.single-slot-article__items').slick({
+            dots: true,
+            infinite: false,
+            arrows: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            appendDots: $('.single-slot-article .slick-slider-dots'),
         });
     }
 

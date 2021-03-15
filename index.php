@@ -405,7 +405,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="streamers__content-item">
                             <div class="streamers__content-img">
                                 <picture>
-                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/350x249.jpg" alt="" class="header__logo-img">
                                 </picture>
                             </div>
@@ -413,15 +413,15 @@ include("template-parts/breadcrumbs.php");
                                 <h3 class="streamers__content-title single-item-title">
                                     #1: Roshtain, XPosed, Fruity Slots...
                                 </h3>
-                                <time datetime="7-14 February 2021" class="streamers__content-date single-item-desc">
+                                <div class="streamers__content-date single-item-desc">
                                     7-14 February 2021
-                                </time>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="streamers__content-item">
                             <div class="streamers__content-img">
                                 <picture>
-                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/350x249.jpg" alt="" class="header__logo-img">
                                 </picture>
                             </div>
@@ -429,15 +429,15 @@ include("template-parts/breadcrumbs.php");
                                 <h3 class="streamers__content-title single-item-title">
                                     #1: Roshtain, XPosed, Fruity Slots...
                                 </h3>
-                                <time datetime="7-14 February 2021" class="streamers__content-date single-item-desc">
+                                <div class="streamers__content-date single-item-desc">
                                     7-14 February 2021
-                                </time>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="streamers__content-item">
                             <div class="streamers__content-img">
                                 <picture>
-                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/350x249.jpg" alt="" class="header__logo-img">
                                 </picture>
                             </div>
@@ -445,15 +445,15 @@ include("template-parts/breadcrumbs.php");
                                 <h3 class="streamers__content-title single-item-title">
                                     #1: Roshtain, XPosed, Fruity Slots...
                                 </h3>
-                                <time datetime="7-14 February 2021" class="streamers__content-date single-item-desc">
+                                <div class="streamers__content-date single-item-desc">
                                     7-14 February 2021
-                                </time>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="streamers__content-item">
                             <div class="streamers__content-img">
                                 <picture>
-                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/350x249.jpg" alt="" class="header__logo-img">
                                 </picture>
                             </div>
@@ -461,15 +461,15 @@ include("template-parts/breadcrumbs.php");
                                 <h3 class="streamers__content-title single-item-title">
                                     #1: Roshtain, XPosed, Fruity Slots...
                                 </h3>
-                                <time datetime="7-14 February 2021" class="streamers__content-date single-item-desc">
+                                <div class="streamers__content-date single-item-desc">
                                     7-14 February 2021
-                                </time>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="streamers__content-item">
                             <div class="streamers__content-img">
                                 <picture>
-                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/350x249.jpg" alt="" class="header__logo-img">
                                 </picture>
                             </div>
@@ -477,15 +477,15 @@ include("template-parts/breadcrumbs.php");
                                 <h3 class="streamers__content-title single-item-title">
                                     #1: Roshtain, XPosed, Fruity Slots...
                                 </h3>
-                                <time datetime="7-14 February 2021" class="streamers__content-date single-item-desc">
+                                <div class="streamers__content-date single-item-desc">
                                     7-14 February 2021
-                                </time>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="streamers__content-item">
                             <div class="streamers__content-img">
                                 <picture>
-                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/350x249.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/350x249.jpg" alt="" class="header__logo-img">
                                 </picture>
                             </div>
@@ -493,9 +493,9 @@ include("template-parts/breadcrumbs.php");
                                 <h3 class="streamers__content-title single-item-title">
                                     #1: Roshtain, XPosed, Fruity Slots...
                                 </h3>
-                                <time datetime="7-14 February 2021" class="streamers__content-date single-item-desc">
+                                <div class="streamers__content-date single-item-desc">
                                     7-14 February 2021
-                                </time>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -762,12 +762,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -781,12 +781,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -800,12 +800,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -819,12 +819,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -838,12 +838,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -857,12 +857,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -876,12 +876,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -895,12 +895,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -914,12 +914,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -933,12 +933,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -952,12 +952,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -971,12 +971,12 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="newonline__slots-item">
                             <div class="newonline__slots-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
-                                <time class="newonline__slots-date">
+                                <div class="newonline__slots-date">
                                     May 2021
-                                </time>
+                                </div>
                             </div>
                             <div class="newonline__slots-content">
                                 <h3 class="newonline__slots-title single-item-title">
@@ -1121,7 +1121,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1137,7 +1137,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1153,7 +1153,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1169,7 +1169,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1185,7 +1185,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1201,7 +1201,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1217,7 +1217,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1233,7 +1233,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1261,7 +1261,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1277,7 +1277,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1293,7 +1293,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1309,7 +1309,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1325,7 +1325,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1341,7 +1341,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1357,7 +1357,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1373,7 +1373,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1401,7 +1401,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1417,7 +1417,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1433,7 +1433,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1449,7 +1449,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1465,7 +1465,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1481,7 +1481,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1497,7 +1497,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1513,7 +1513,7 @@ include("template-parts/breadcrumbs.php");
                         <a href="#" class="popular__slide">
                             <div class="popular__slide-img">
                                 <picture>
-                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
+                                    <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)" type="image/webp">
                                     <img src="images/img-test/304_201_2.jpg" alt="">
                                 </picture>
                             </div>
@@ -1547,7 +1547,7 @@ include("template-parts/breadcrumbs.php");
                     <a href="" class="peoples__item">
                         <div class="peoples__img">
                             <picture>
-                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/pers.jpg" alt="">
                             </picture>
                         </div>
@@ -1558,7 +1558,7 @@ include("template-parts/breadcrumbs.php");
                     <a href="" class="peoples__item">
                         <div class="peoples__img">
                             <picture>
-                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/pers.jpg" alt="">
                             </picture>
                         </div>
@@ -1569,7 +1569,7 @@ include("template-parts/breadcrumbs.php");
                     <a href="" class="peoples__item">
                         <div class="peoples__img">
                             <picture>
-                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/pers.jpg" alt="">
                             </picture>
                         </div>
@@ -1580,7 +1580,7 @@ include("template-parts/breadcrumbs.php");
                     <a href="" class="peoples__item">
                         <div class="peoples__img">
                             <picture>
-                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/pers.jpg" alt="">
                             </picture>
                         </div>
@@ -1591,7 +1591,7 @@ include("template-parts/breadcrumbs.php");
                     <a href="" class="peoples__item">
                         <div class="peoples__img">
                             <picture>
-                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/pers.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/pers.jpg" alt="">
                             </picture>
                         </div>
@@ -1617,9 +1617,10 @@ include("template-parts/breadcrumbs.php");
                 </h2>
                 <div class="top-slots__content">
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1633,9 +1634,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1649,9 +1651,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1665,9 +1668,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1681,9 +1685,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1697,9 +1702,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1713,9 +1719,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1729,9 +1736,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1745,9 +1753,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1761,9 +1770,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1777,9 +1787,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1793,9 +1804,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1809,9 +1821,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1825,9 +1838,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
@@ -1841,9 +1855,10 @@ include("template-parts/breadcrumbs.php");
                         </div>
                     </div>
                     <div class="top-slots__item">
+                        <a href="" class="top-slots__item-link"></a>
                         <div class="top-slots__image">
                             <picture>
-                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)">
+                                <source srcset="images/img-test/150x89.jpg" media="(max-width: 600px)" type="image/webp">
                                 <img src="images/img-test/150x89.jpg" alt="">
                             </picture>
                         </div>
