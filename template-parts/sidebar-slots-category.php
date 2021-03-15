@@ -187,49 +187,49 @@
     </h2>
     <div class="sb-last-news__content">
         <a href="#" class="sb-last-news__item">
-            <time class="sb-last-news__date">
+            <div class="sb-last-news__date">
                 14 February 2021
-            </time>
+            </div>
             <div class="sb-last-news__desc">
                 LuckyStreak becomes the latest Yggdrasil Franchise partner
             </div>
         </a>
         <a href="#" class="sb-last-news__item">
-            <time class="sb-last-news__date">
+            <div class="sb-last-news__date">
                 14 February 2021
-            </time>
+            </div>
             <div class="sb-last-news__desc">
                 LuckyStreak becomes the latest Yggdrasil Franchise partner
             </div>
         </a>
         <a href="#" class="sb-last-news__item">
-            <time class="sb-last-news__date">
+            <div class="sb-last-news__date">
                 14 February 2021
-            </time>
+            </div>
             <div class="sb-last-news__desc">
                 LuckyStreak becomes the latest Yggdrasil Franchise partner
             </div>
         </a>
         <a href="#" class="sb-last-news__item">
-            <time class="sb-last-news__date">
+            <div class="sb-last-news__date">
                 14 February 2021
-            </time>
+            </div>
             <div class="sb-last-news__desc">
                 LuckyStreak becomes the latest Yggdrasil Franchise partner
             </div>
         </a>
         <a href="#" class="sb-last-news__item">
-            <time class="sb-last-news__date">
+            <div class="sb-last-news__date">
                 14 February 2021
-            </time>
+            </div>
             <div class="sb-last-news__desc">
                 LuckyStreak becomes the latest Yggdrasil Franchise partner
             </div>
         </a>
         <a href="#" class="sb-last-news__item">
-            <time class="sb-last-news__date">
+            <div class="sb-last-news__date">
                 14 February 2021
-            </time>
+            </div>
             <div class="sb-last-news__desc">
                 LuckyStreak becomes the latest Yggdrasil Franchise partner
             </div>

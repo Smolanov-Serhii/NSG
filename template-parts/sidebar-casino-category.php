@@ -192,7 +192,7 @@
         </div>
     </div>
 </section>
-<section class="sb-play non-trigger right-padding category-sidebar-left-padding" style="background-color: ;">
+<section class="sb-play non-trigger right-padding category-sidebar-left-padding" style="background-color: #FFFFFF;">
     <h2 class="sb-play__title">
         Casinos By Licenses
     </h2>

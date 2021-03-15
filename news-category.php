@@ -38,9 +38,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -54,9 +54,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -70,9 +70,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -86,9 +86,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -102,9 +102,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -118,9 +118,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -355,9 +355,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -371,9 +371,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -387,9 +387,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -403,9 +403,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -419,9 +419,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -435,9 +435,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -451,9 +451,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -467,9 +467,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -483,9 +483,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -499,9 +499,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -515,9 +515,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -531,9 +531,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -547,9 +547,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -563,9 +563,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -579,9 +579,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -595,9 +595,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -611,9 +611,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -627,9 +627,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -643,9 +643,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -659,9 +659,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -675,9 +675,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -691,9 +691,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -707,9 +707,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -723,9 +723,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -739,9 +739,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -755,9 +755,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
@@ -771,9 +771,9 @@ include("template-parts/breadcrumbs.php");
                                             <source srcset="images/img-test/304_201_2.jpg" media="(max-width: 600px)">
                                             <img src="images/img-test/304_201_2.jpg" alt="">
                                         </picture>
-                                        <time class="newonline__slots-date">
+                                        <div class="newonline__slots-date">
                                             May 2021
-                                        </time>
+                                        </div>
                                     </div>
                                     <div class="newonline__slots-content">
                                         <h3 class="newonline__slots-title single-item-title">
