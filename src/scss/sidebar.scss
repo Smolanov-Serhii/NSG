@@ -222,7 +222,6 @@
     line-height: 116%;
     letter-spacing: 0.03em;
     color: #000000;
-    margin-top: 9px;
     @include transition;
   }
   &__date{
@@ -231,6 +230,15 @@
     line-height: 114%;
     letter-spacing: 0.03em;
     color: #397589;
+    margin-bottom: 9px;
+  }
+  &__type{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.03em;
+    color: #397589;
+    margin-top: 9px;
   }
   &__lnk{
     margin-top: 35px;

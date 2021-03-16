@@ -475,7 +475,7 @@ body {
     .left-padding {
       padding-left: 100px; } }
 
-.full-width-button {
+.full-width-button, button[type="submit"] {
   padding: 9px 10px 11px 10px;
   background-color: #FF2F38;
   color: white;
@@ -487,10 +487,11 @@ body {
   border-radius: 5px;
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .full-width-button svg {
+  align-items: center;
+  border: none; }
+  .full-width-button svg, button[type="submit"] svg {
     margin-left: 16px; }
-  .full-width-button:hover {
+  .full-width-button:hover, button[type="submit"]:hover {
     background-color: #D61B23; }
 
 .red-btn {
@@ -560,6 +561,42 @@ table {
     color: #2D2222; }
   table tr:nth-child(odd) {
     background-color: #DFF7FF; }
+
+form label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0.03em;
+  color: #397589; }
+
+form input {
+  background: #FFFFFF;
+  border: 1px solid #397589;
+  box-sizing: border-box;
+  padding: 11px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 114%;
+  letter-spacing: 0.03em;
+  color: #000000;
+  border-radius: 5px; }
+  form input::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 114%;
+    letter-spacing: 0.03em;
+    color: #000000; }
+
+form textarea {
+  resize: none;
+  height: 191px;
+  border-radius: 5px; }
+
+form .row input {
+  margin-top: 13px; }
+
+form .row textarea {
+  margin-top: 13px; }
 
 html {
   font-feature-settings: 'pnum' on, 'lnum' on; }
@@ -1807,7 +1844,14 @@ html {
     box-sizing: border-box;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    transition: 0.1s;
+    transition-timing-function: ease-in; }
+    .slots-acardeon__item:hover {
+      box-shadow: 0 0 25px rgba(45, 34, 34, 0.07);
+      border: 1px solid transparent; }
+      .slots-acardeon__item:hover .slots-acardeon__header {
+        text-decoration: underline; }
   .slots-acardeon__header {
     background: #DFF7FF;
     padding: 19px 36px;
@@ -2011,3 +2055,148 @@ html {
     display: inline-flex;
     padding: 10px 87px;
     width: auto; }
+
+.contacts {
+  margin-top: 45px; }
+  .contacts__content {
+    margin-top: 20px; }
+  .contacts__form {
+    margin-top: 54px;
+    background-color: #DFF7FF;
+    border-radius: 10px;
+    padding: 41px 50px 65px 50px; }
+    .contacts__form form {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -48px; }
+      .contacts__form form .row {
+        width: calc(50% - 48px);
+        margin-right: 48px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px; }
+        .contacts__form form .row.button {
+          justify-content: center;
+          margin-top: 31px;
+          width: 100%; }
+        .contacts__form form .row button {
+          max-width: 367px;
+          margin: auto; }
+        .contacts__form form .row:last-child {
+          margin-bottom: 0; }
+        .contacts__form form .row input {
+          width: 100%; }
+        .contacts__form form .row.textarea {
+          width: 100%; }
+
+.search-result {
+  margin-top: 45px; }
+  .search-result .pagination {
+    margin-top: 55px;
+    padding-bottom: 79px; }
+  .search-result__total {
+    margin-top: 34px;
+    font-size: 18px;
+    line-height: 138%;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    color: #2D2222; }
+    .search-result__total span {
+      color: #FF2F38;
+      font-weight: 700; }
+  .search-result__form {
+    margin-top: 29px;
+    display: flex;
+    flex-wrap: wrap; }
+    .search-result__form input {
+      width: 78%;
+      margin-right: 19px; }
+    .search-result__form button {
+      width: calc(22% - 19px); }
+      .search-result__form button svg {
+        margin-right: 10px;
+        margin-left: 0; }
+
+.providers-header {
+  margin-top: 45px; }
+  .providers-header__desc {
+    margin-top: 20px; }
+
+.popular-dev {
+  margin-top: 45px; }
+  .popular-dev__list {
+    margin-top: 40px;
+    margin-right: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 45px; }
+  .popular-dev__item {
+    width: calc(20% - 20px);
+    margin-right: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 25px rgba(45, 34, 34, 0.07);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative; }
+    .popular-dev__item-lnk {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1; }
+  .popular-dev__img {
+    height: 180px;
+    width: 100%; }
+    .popular-dev__img picture {
+      width: 100%;
+      height: 100%; }
+      .popular-dev__img picture img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+  .popular-dev__content {
+    display: flex;
+    padding: 20px; }
+  .popular-dev__casinos {
+    width: 50%;
+    position: relative;
+    z-index: 2; }
+  .popular-dev__slot {
+    width: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 116%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2D2222;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.all-providers {
+  margin-top: 75px; }
+  .all-providers .top-slots__content {
+    margin-top: 20px; }
+  .all-providers__filter {
+    margin-top: 30px;
+    display: flex; }
+    .all-providers__filter a {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 116%;
+      letter-spacing: 0.03em; }
+  .all-providers__all {
+    margin-right: 24px;
+    color: #FF2F38; }
+  .all-providers__alph {
+    display: flex; }
+  .all-providers__part {
+    margin-right: 24px; }
+    .all-providers__part a {
+      color: #397589;
+      text-transform: uppercase;
+      transition: 0.1s;
+      transition-timing-function: ease-in; }
+      .all-providers__part a:hover {
+        color: #FF2F38; }

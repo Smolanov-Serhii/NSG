@@ -1555,6 +1555,14 @@ html{
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 30px;
+    @include transition;
+    &:hover{
+      box-shadow: 0 0 25px rgba(45, 34, 34, 0.07);
+      border: 1px solid transparent;
+      .slots-acardeon__header{
+        text-decoration: underline;
+      }
+    }
   }
   &__header{
     background: #DFF7FF;
@@ -1805,5 +1813,183 @@ html{
     display: inline-flex;
     padding: 10px 87px;
     width: auto;
+  }
+}
+.contacts{
+  margin-top: 45px;
+  &__content{
+    margin-top: 20px;
+  }
+  &__form{
+    margin-top: 54px;
+    background-color: #DFF7FF;
+    border-radius: 10px;
+    padding: 41px 50px 65px 50px;
+    form{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -48px;
+      .row{
+        width: calc(50% - 48px);
+        margin-right: 48px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        &.button{
+          justify-content: center;
+          margin-top: 31px;
+          width: 100%;
+        }
+        button{
+          max-width: 367px;
+          margin: auto;
+        }
+        &:last-child{
+          margin-bottom: 0;
+        }
+        input{
+          width: 100%;
+        }
+        &.textarea{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.search-result{
+  margin-top: 45px;
+  .pagination{
+    margin-top: 55px;
+    padding-bottom: 79px;
+  }
+  &__total{
+    margin-top: 34px;
+    font-size: 18px;
+    line-height: 138%;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    color: #2D2222;
+    span{
+      color: $red-color;
+      font-weight: 700;
+    }
+  }
+  &__form{
+    margin-top: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    input{
+      width: 78%;
+      margin-right: 19px;
+    }
+    button{
+      width: calc(22% - 19px);
+      svg{
+        margin-right: 10px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+.providers-header{
+  margin-top: 45px;
+  &__desc{
+    margin-top: 20px;
+  }
+}
+.popular-dev{
+  margin-top: 45px;
+  &__list{
+    margin-top: 40px;
+    margin-right: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+  }
+  &__item{
+    width: calc(20% - 20px);
+    margin-right: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 25px rgba(45, 34, 34, 0.07);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    &-lnk{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  }
+  &__img{
+    height: 180px;
+    width: 100%;
+    picture{
+      width: 100%;
+      height: 100%;
+      img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &__content{
+    display: flex;
+    padding: 20px;
+  }
+  &__casinos{
+    width: 50%;
+    position: relative;
+    z-index: 2;
+  }
+  &__slot{
+    width: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 116%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2D2222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.all-providers{
+  margin-top: 75px;
+  .top-slots__content{
+    margin-top: 20px;
+  }
+  &__filter{
+    margin-top: 30px;
+    display: flex;
+    a{
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 116%;
+      letter-spacing: 0.03em;
+    }
+  }
+  &__all{
+    margin-right: 24px;
+    color: $red-color;
+  }
+  &__alph{
+    display: flex;
+  }
+  &__part{
+    margin-right: 24px;
+    a{
+      color: #397589;
+      text-transform: uppercase;
+      @include transition;
+      &:hover{
+        color: $red-color;
+      }
+    }
   }
 }

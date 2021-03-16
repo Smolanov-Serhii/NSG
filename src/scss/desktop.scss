@@ -5,7 +5,7 @@
     }
   }
 }
-.slot-category-page, .casino-category-page, .news-category-page, .digest-category-page{
+.slot-category-page, .casino-category-page, .news-category-page, .digest-category-page, .contacts-page, .search-result-page{
   display: flex;
   .main-content{
     width: 68%;
@@ -124,5 +124,17 @@
   }
   .best-casinos__container{
     padding-bottom: 31px;
+  }
+}
+.search-result-page{
+  .sb-best{
+    padding-bottom: 0;
+  }
+  .sb-last-news__item{
+    &:hover{
+      .sb-last-news__desc{
+        text-decoration: underline;
+      }
+    }
   }
 }
