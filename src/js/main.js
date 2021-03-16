@@ -24,11 +24,11 @@ $(document ).ready(function() {
 
     }
 
-    if ($('.single-slot-article__item').length && $('.single-slot-article__desc').length){
+    if ($('.slot-article .single-slot-article__item').length && $('.slot-article .single-slot-article__desc').length){
         DublicateHeight();
         function DublicateHeight(){
-            let DonorHeight = $('.single-slot-article__item').height();
-            $('.single-slot-article__desc').outerHeight(DonorHeight);
+            let DonorHeight = $('.slot-article .single-slot-article__item').height();
+            $('.slot-article .single-slot-article__desc').outerHeight(DonorHeight);
         }
 
         $( window ).resize(function() {

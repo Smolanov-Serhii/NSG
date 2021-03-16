@@ -1755,3 +1755,232 @@ html {
     width: 100%; }
     .single-slot-article__tables .value {
       text-align: center; }
+
+.slots-video {
+  padding-top: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 75px; }
+  .slots-video__text {
+    width: calc(50% - 32px);
+    margin-right: 64px; }
+  .slots-video__video {
+    width: calc(50% - 32px);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 401px; }
+  .slots-video__title {
+    margin-top: 43px; }
+  .slots-video__bottomheader {
+    margin-top: 13px; }
+  .slots-video__about {
+    width: 100%;
+    max-width: 1094px;
+    padding: 54px 61px;
+    display: flex;
+    border: 1px solid #397589;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #397589;
+    margin-top: 77px; }
+    .slots-video__about p {
+      text-align: center;
+      font-size: 24px;
+      line-height: 116%;
+      letter-spacing: 0.03em;
+      color: #397589; }
+
+.slots-acardeon {
+  margin-top: 75px;
+  padding-bottom: 45px; }
+  .slots-acardeon__list {
+    margin-top: 36px; }
+  .slots-acardeon__item {
+    border: 1px solid #397589;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px; }
+  .slots-acardeon__header {
+    background: #DFF7FF;
+    padding: 19px 36px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #397589;
+    cursor: pointer; }
+  .slots-acardeon__content {
+    padding: 19px 36px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #2D2222; }
+  .slots-acardeon__lnk {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0 50px;
+    text-align: center; }
+    .slots-acardeon__lnk a {
+      max-width: 952px;
+      padding: 16px;
+      margin: auto;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 116%;
+      text-transform: uppercase; }
+
+.slots-header-wide {
+  margin-top: 45px; }
+  .slots-header-wide .single-slot-article__desc {
+    height: auto !important;
+    align-self: stretch;
+    width: 24%; }
+  .slots-header-wide__title {
+    margin-bottom: 45px; }
+  .slots-header-wide__content {
+    display: flex;
+    flex-wrap: wrap; }
+  .slots-header-wide__img {
+    width: calc(45% - 26px);
+    margin-right: 26px; }
+  .slots-header-wide__image {
+    filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.15));
+    border-radius: 10px;
+    overflow: hidden;
+    height: 394px; }
+    .slots-header-wide__image picture {
+      width: 100%;
+      height: 100%; }
+      .slots-header-wide__image picture img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+  .slots-header-wide__up {
+    margin-top: 31px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: #00DB5C;
+    padding: 13px;
+    display: block;
+    border-radius: 10px; }
+  .slots-header-wide__tags {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center; }
+    .slots-header-wide__tags .tag-item {
+      padding: 6px 23px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 121%;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      border-radius: 5px;
+      margin-right: 12px; }
+      .slots-header-wide__tags .tag-item:last-child {
+        margin-right: 0; }
+  .slots-header-wide__big-btn {
+    margin-top: 66px;
+    display: flex;
+    width: 100%;
+    padding: 0 50px;
+    justify-content: center; }
+    .slots-header-wide__big-btn a {
+      max-width: 952px;
+      padding: 16px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 108%;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+  .slots-header-wide__desc {
+    margin-top: 19px;
+    display: flex;
+    justify-content: center; }
+    .slots-header-wide__desc span {
+      margin-right: 15px;
+      color: #828282;
+      font-size: 18px;
+      line-height: 116%;
+      letter-spacing: 0.03em; }
+      .slots-header-wide__desc span:after {
+        content: "|";
+        margin-left: 15px;
+        color: #828282; }
+      .slots-header-wide__desc span:last-child {
+        margin-right: 0;
+        padding-right: 0; }
+        .slots-header-wide__desc span:last-child:after {
+          display: none; }
+    .slots-header-wide__desc .applies {
+      color: #000000; }
+  .slots-header-wide__table {
+    width: calc(31% - 20px);
+    margin-right: 20px; }
+    .slots-header-wide__table table {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+      overflow: hidden; }
+      .slots-header-wide__table table thead td {
+        background-color: #397589;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 116%; }
+      .slots-header-wide__table table td {
+        border: none;
+        border-right: 1px solid #397589;
+        text-align: left;
+        font-size: 14px;
+        line-height: 114%;
+        font-weight: 400; }
+        .slots-header-wide__table table td a {
+          display: inline-flex;
+          padding: 5px 20px;
+          color: white;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 116%;
+          border-radius: 5px;
+          margin-top: 7px; }
+        .slots-header-wide__table table td:first-child {
+          border-left: 1px solid #397589; }
+  .slots-header-wide__big-text {
+    margin-top: 69px; }
+
+.slots-text-only {
+  margin-top: 45px; }
+  .slots-text-only__content {
+    margin-top: 13px; }
+    .slots-text-only__content ul li {
+      position: relative;
+      padding-left: 26px;
+      margin-bottom: 1.2em;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 139%; }
+      .slots-text-only__content ul li:before {
+        position: absolute;
+        left: 0;
+        top: 0.55em;
+        content: "";
+        border-radius: 50%;
+        width: 6px;
+        height: 6px;
+        background-color: #FF2F38;
+        display: inline-block; }

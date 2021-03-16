@@ -324,11 +324,73 @@ include("template-parts/breadcrumbs.php");
                 </a>
             </div>
         </section>
-        <section class="slots-video">
-
+        <section class="slots-video container-wide">
+            <div class="slots-video__text">
+                <div class="slots-video__underheader">
+                    <p><a href="#">NetEnt</a> continues to work on <a href="#">new Megaways slot machines</a>, now that they’ve gained access to
+                        the license via their latest purchase, a developer called Red Tiger. They are planning
+                        on launching Dazzle Me Megaways soon, the latest title to use this engine.
+                        </p>
+                    <p>Dazzle Me Megaways will feature 6 reels with a maximum of 117,649 Megaways active.</p>
+                </div>
+                <h2 class="slots-video__title">
+                    Dazzle Me Megaways Slot Features
+                </h2>
+                <div class="slots-video__bottomheader">
+                    <p>The Megaways system works by giving the player a random number of symbols for each reel.
+                        With 6 reels available, and with 2 to 7 symbols randomly picked for each one, you might
+                        get only a few hundred ways to win during some spins, or as many as 117,649 in others. As
+                        long as 3 or more consecutive reels hold matching symbols, from leftmost column to the right, you will get paid.
+                    </p>
+                    <p>Dazzle Me Megaways will feature 6 reels with a maximum of 117,649 Megaways active.</p>
+                </div>
+            </div>
+            <div class="slots-video__video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ujHcGRIXEzU?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="slots-video__about">
+                <p>Dazzle Me Megaways is not yet available to play, but we will have a full review for it once it is released.</p>
+            </div>
         </section>
-        <section class="slots-acardeon">
-
+        <section class="slots-acardeon container-wide">
+            <h2 class="slots-acardeon__title">
+                Dazzle Me Megaways Slot Machine FAQ
+            </h2>
+            <div class="slots-acardeon__list">
+                <div class="slots-acardeon__item">
+                    <div class="slots-acardeon__header">
+                        What is a key options of the Dazzle Me Megaways slot?
+                    </div>
+                    <div class="slots-acardeon__content">
+                        Slot developer: NetEnt , 6 reels with 117,649 paylines .
+                    </div>
+                </div>
+                <div class="slots-acardeon__item">
+                    <div class="slots-acardeon__header">
+                        Where can I play Dazzle Me Megaways?
+                    </div>
+                    <div class="slots-acardeon__content">
+                        NewSlotGames team prepare a rating of online casinos with NetEnt games. Try top recomended licensed NetEnt casinos with Dazzle Me Megaways slot.
+                    </div>
+                </div>
+                <div class="slots-acardeon__item">
+                    <div class="slots-acardeon__header">
+                        Can I play Dazzle Me Megaways slot on my phone?
+                    </div>
+                    <div class="slots-acardeon__content">
+                        Yes, it's absolutely mobile-friendly!
+                    </div>
+                </div>
+                <div class="slots-acardeon__item">
+                    <div class="slots-acardeon__header">
+                        Where can I play this slot machine free?
+                    </div>
+                    <div class="slots-acardeon__content">
+                        You should choose one of the recomended online casinos listed here and push "Play Now" button.
+                        Any casinos ask you to register account, any casinos allow to play Dazzle Me Megaways free without registration.
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="best-casinos" style="background-color: #DFF7FF">
             <div class="best-casinos__container container-wide">
