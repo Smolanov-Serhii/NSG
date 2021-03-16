@@ -162,6 +162,9 @@ html{
         align-items: center;
         li{
           margin-bottom: 0;
+          &:before{
+            display: none;
+          }
           &:hover{
             a{
               color: #F4D21F;
@@ -1022,8 +1025,12 @@ html{
     &-menu{
       display: flex;
       align-items: center;
+      list-style: none;
       li{
         margin-right: 36px;
+        &:before{
+          display: none;
+        }
         &:last-child{
           margin-right: 0;
         }
@@ -1990,6 +1997,113 @@ html{
       &:hover{
         color: $red-color;
       }
+    }
+  }
+}
+.digest-article-header{
+  margin-top: 45px;
+  &__date{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #00DB5C;
+  }
+  &__heroes{
+    margin-top: 26px;
+    background: #DFF7FF;
+    border-radius: 10px;
+    padding: 19px 34px 28px 34px;
+  }
+  &__about{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #397589;
+  }
+  &__list{
+    margin-top: 15px;
+    display: flex;
+  }
+  &__item{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #DFF7FF;
+    background: #397589;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    display: block;
+    @include transition;
+    cursor: pointer;
+    &:hover{
+      color: #397589;
+      background-color: transparent;
+      border: 1px solid #397589;
+      text-decoration: underline;
+    }
+  }
+  &__desc{
+    margin-top: 53px;
+  }
+}
+.digest-list{
+  margin-top: 40px;
+  &__undertext{
+    margin-top: 13px;
+  }
+  &__list{
+    margin-top: 40px;
+  }
+  &__item{
+    margin-bottom: 48px;
+    &-undertitle{
+      margin-top: 23px;
+    }
+  }
+  &__content{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__image{
+    width: calc(50% - 42px);
+    margin-right: 42px;
+    border-radius: 10px;
+    overflow: hidden;
+    picture{
+      height: 100%;
+      width: 100%;
+      img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &__description{
+    width: 50%;
+  }
+  &__video{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140.9%;
+    letter-spacing: 0.03em;
+    color: #397589;
+    margin-top: 43px;
+    @include transition;
+    &:hover{
+      color: $red-color;
+    }
+    svg{
+      margin-right: 23px;
     }
   }
 }

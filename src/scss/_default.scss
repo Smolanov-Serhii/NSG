@@ -30,7 +30,7 @@ img{
   max-width: 100%;
 }
 p, pre{
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   line-height: 139%;
   margin-bottom: 1.2em;
@@ -81,10 +81,18 @@ h1{
   }
 }
 ul,ol{
-  list-style: none;
+  list-style: disk;
   margin: 0;
   li{
-    margin-bottom: 0.6em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    margin-bottom: 1.2em;
+    &::before {
+      color: red; /* Цвет маркера */
+      content: "●"; /* Сам маркер */
+      padding-right: 10px; /* Расстояние от маркера до текста */
+    }
   }
 }
 strong, b{
@@ -112,8 +120,10 @@ h2{
   }
 }
 h3{
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.15em;
+  letter-spacing: 0.03em;
 }
 h4{
   font-weight: 700;

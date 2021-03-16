@@ -353,7 +353,7 @@ img {
   max-width: 100%; }
 
 p, pre {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   line-height: 139%;
   margin-bottom: 1.2em;
@@ -401,10 +401,20 @@ h1 {
       font-size: 14px; } }
 
 ul, ol {
-  list-style: none;
+  list-style: disk;
   margin: 0; }
   ul li, ol li {
-    margin-bottom: 0.6em; }
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    margin-bottom: 1.2em; }
+    ul li::before, ol li::before {
+      color: red;
+      /* Цвет маркера */
+      content: "●";
+      /* Сам маркер */
+      padding-right: 10px;
+      /* Расстояние от маркера до текста */ }
 
 strong, b {
   font-weight: 600; }
@@ -431,8 +441,10 @@ h2 {
       font-size: 10px; } }
 
 h3 {
-  font-weight: 700;
-  font-size: 36px; }
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.15em;
+  letter-spacing: 0.03em; }
 
 h4 {
   font-weight: 700;
@@ -731,6 +743,8 @@ html {
       align-items: center; }
       .header__page nav .page-manu li {
         margin-bottom: 0; }
+        .header__page nav .page-manu li:before {
+          display: none; }
         .header__page nav .page-manu li:hover a {
           color: #F4D21F; }
         .header__page nav .page-manu li a {
@@ -1415,9 +1429,12 @@ html {
     align-items: center; }
   .footer__nav-menu {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    list-style: none; }
     .footer__nav-menu li {
       margin-right: 36px; }
+      .footer__nav-menu li:before {
+        display: none; }
       .footer__nav-menu li:last-child {
         margin-right: 0; }
       .footer__nav-menu li.active-menu a, .footer__nav-menu li:hover a {
@@ -2200,3 +2217,93 @@ html {
       transition-timing-function: ease-in; }
       .all-providers__part a:hover {
         color: #FF2F38; }
+
+.digest-article-header {
+  margin-top: 45px; }
+  .digest-article-header__date {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #00DB5C; }
+  .digest-article-header__heroes {
+    margin-top: 26px;
+    background: #DFF7FF;
+    border-radius: 10px;
+    padding: 19px 34px 28px 34px; }
+  .digest-article-header__about {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #397589; }
+  .digest-article-header__list {
+    margin-top: 15px;
+    display: flex; }
+  .digest-article-header__item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 116%;
+    letter-spacing: 0.03em;
+    color: #DFF7FF;
+    background: #397589;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    display: block;
+    transition: 0.1s;
+    transition-timing-function: ease-in;
+    cursor: pointer; }
+    .digest-article-header__item:hover {
+      color: #397589;
+      background-color: transparent;
+      border: 1px solid #397589;
+      text-decoration: underline; }
+  .digest-article-header__desc {
+    margin-top: 53px; }
+
+.digest-list {
+  margin-top: 40px; }
+  .digest-list__undertext {
+    margin-top: 13px; }
+  .digest-list__list {
+    margin-top: 40px; }
+  .digest-list__item {
+    margin-bottom: 48px; }
+    .digest-list__item-undertitle {
+      margin-top: 23px; }
+  .digest-list__content {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap; }
+  .digest-list__image {
+    width: calc(50% - 42px);
+    margin-right: 42px;
+    border-radius: 10px;
+    overflow: hidden; }
+    .digest-list__image picture {
+      height: 100%;
+      width: 100%; }
+      .digest-list__image picture img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+  .digest-list__description {
+    width: 50%; }
+  .digest-list__video {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140.9%;
+    letter-spacing: 0.03em;
+    color: #397589;
+    margin-top: 43px;
+    transition: 0.1s;
+    transition-timing-function: ease-in; }
+    .digest-list__video:hover {
+      color: #FF2F38; }
+    .digest-list__video svg {
+      margin-right: 23px; }
