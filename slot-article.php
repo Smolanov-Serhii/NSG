@@ -5,12 +5,12 @@ include("template-parts/breadcrumbs.php");
     <div class="slot-article">
         <section class="single-slot-article container-wide">
             <h1 class="single-slot-article__title">
-                <div class="single-slot-article__icon">
+                <span class="single-slot-article__icon">
                     <picture>
                         <source srcset="images/img-test/102x60_h1.jpg" media="(max-width: 600px)" type="image/webp">
                         <img src="images/img-test/102x60_h1.jpg" alt="" class="lazy">
                     </picture>
-                </div>
+                </span>
                 Dazzle Me Megaways Slot Review
             </h1>
             <div class="single-slot-article__container">

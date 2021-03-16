@@ -39,7 +39,7 @@ include("template-parts/breadcrumbs.php");
                         <tr>
                             <td>License</td>
                             <td>Curacao
-                                <img src="images/img-test/eng.svg"alt=""></td>
+                                <img src="images/img-test/eng.svg" alt=""></td>
                         </tr>
                         <tr>
                             <td>Languages</td>
