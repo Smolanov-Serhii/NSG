@@ -1,5 +1,12 @@
 .sidebar-category {
   width: 32%; }
+  .sidebar-category .streamers__vertical {
+    width: 100%; }
+    .sidebar-category .streamers__vertical-title {
+      margin-top: 13px; }
+    .sidebar-category .streamers__vertical-lnk {
+      width: 100%;
+      justify-content: center; }
 
 .category-sidebar-left-padding {
   padding-left: 84px; }

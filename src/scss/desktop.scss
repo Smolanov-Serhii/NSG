@@ -5,11 +5,33 @@
     }
   }
 }
-.slot-category-page, .casino-category-page, .news-category-page{
+.slot-category-page, .casino-category-page, .news-category-page, .digest-category-page{
   display: flex;
   .main-content{
     width: 68%;
     .text-block__container{
+      margin-right: 0;
+    }
+  }
+}
+.digest-category-page{
+  .streamers{
+    padding: 45px 0 0 100px;
+    &__content{
+      width: 100%;
+      padding-bottom: 36px;
+      &-item{
+        margin-bottom: 25px;
+      }
+    }
+    .pagination{
+      margin-top: 24px;
+    }
+  }
+  .cat-play{
+    padding-right: 0;
+    .best-casinos__content{
+      padding-right: 56px;
       margin-right: 0;
     }
   }

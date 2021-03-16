@@ -869,6 +869,8 @@ html {
 
 .streamers {
   padding: 78px 0 19px 0; }
+  .streamers__undertitle {
+    margin-top: 20px; }
   .streamers__container {
     display: flex;
     justify-content: space-between; }
@@ -1999,6 +2001,12 @@ html {
   .page-404__image {
     margin-top: -47px;
     margin-right: -104px; }
+    .page-404__image picture {
+      height: 100%;
+      width: 100%; }
+      .page-404__image picture img {
+        height: 100%;
+        width: auto; }
   .page-404__lnk {
     display: inline-flex;
     padding: 10px 87px;

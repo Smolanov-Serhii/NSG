@@ -1,12 +1,28 @@
 .main-page .news .news__date {
   display: none; }
 
-.slot-category-page, .casino-category-page, .news-category-page {
+.slot-category-page, .casino-category-page, .news-category-page, .digest-category-page {
   display: flex; }
-  .slot-category-page .main-content, .casino-category-page .main-content, .news-category-page .main-content {
+  .slot-category-page .main-content, .casino-category-page .main-content, .news-category-page .main-content, .digest-category-page .main-content {
     width: 68%; }
-    .slot-category-page .main-content .text-block__container, .casino-category-page .main-content .text-block__container, .news-category-page .main-content .text-block__container {
+    .slot-category-page .main-content .text-block__container, .casino-category-page .main-content .text-block__container, .news-category-page .main-content .text-block__container, .digest-category-page .main-content .text-block__container {
       margin-right: 0; }
+
+.digest-category-page .streamers {
+  padding: 45px 0 0 100px; }
+  .digest-category-page .streamers__content {
+    width: 100%;
+    padding-bottom: 36px; }
+    .digest-category-page .streamers__content-item {
+      margin-bottom: 25px; }
+  .digest-category-page .streamers .pagination {
+    margin-top: 24px; }
+
+.digest-category-page .cat-play {
+  padding-right: 0; }
+  .digest-category-page .cat-play .best-casinos__content {
+    padding-right: 56px;
+    margin-right: 0; }
 
 .casino-category-page .pagination {
   padding-right: 60px; }

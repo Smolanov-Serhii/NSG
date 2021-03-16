@@ -380,6 +380,9 @@ html{
 }
 .streamers{
   padding: 78px 0 19px 0;
+  &__undertitle{
+    margin-top: 20px;
+  }
   &__container{
     display: flex;
     justify-content: space-between;
@@ -1789,6 +1792,14 @@ html{
   &__image{
     margin-top: -47px;
     margin-right: -104px;
+    picture{
+      height: 100%;
+      width: 100%;
+      img{
+        height: 100%;
+        width: auto;
+      }
+    }
   }
   &__lnk{
     display: inline-flex;
