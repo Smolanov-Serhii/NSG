@@ -399,6 +399,12 @@ include("template-parts/breadcrumbs.php");
                             </div>
                         </a>
                     </div>
+                    <a href="#" class="streamers__content-lnk red-btn">
+                        Show more
+                        <svg width="17" height="8" viewBox="0 0 17 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5447 0.716759L16.7267 3.89874C16.922 4.094 16.922 4.41058 16.7267 4.60585L13.5447 7.78783C13.3495 7.98309 13.0329 7.98309 12.8376 7.78783C12.6424 7.59256 12.6424 7.27598 12.8376 7.08072L15.1661 4.75229H0.373169V3.75229H15.1661L12.8376 1.42387C12.6424 1.2286 12.6424 0.912021 12.8376 0.716759C13.0329 0.521497 13.3495 0.521497 13.5447 0.716759Z" fill="#F4D21F"></path>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </section>

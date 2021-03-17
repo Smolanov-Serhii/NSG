@@ -229,3 +229,17 @@
         object-fit: cover;
         width: 100%;
         height: 100%; }
+
+.sb-strimers-digest .streamers__content {
+  width: 100%; }
+  .sb-strimers-digest .streamers__content-list {
+    margin-top: 34px;
+    width: 100%; }
+  .sb-strimers-digest .streamers__content-item {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-right: 0; }
+    .sb-strimers-digest .streamers__content-item:last-child {
+      margin-bottom: 0; }
+  .sb-strimers-digest .streamers__content-sblnk {
+    margin-top: 35px; }

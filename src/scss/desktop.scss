@@ -1,3 +1,4 @@
+@import "vars";
 .main-page{
   .news{
     .news__date{
@@ -5,7 +6,7 @@
     }
   }
 }
-.slot-category-page, .casino-category-page, .news-category-page, .digest-category-page, .contacts-page, .search-result-page{
+.slot-category-page, .casino-category-page, .news-category-page, .digest-category-page, .contacts-page, .search-result-page, .stremers-category{
   display: flex;
   .main-content{
     width: 68%;
@@ -14,7 +15,79 @@
     }
   }
 }
-.digest-article{
+.stremers-category{
+  .main-content{
+    .streamers-play-best{
+      .streamers__vertical{
+        &-title{
+          margin-top: 75px;
+          margin-left: 0;
+        }
+        &-list{
+          margin-top: 81px;
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin-right: -22px;
+        }
+        &-item{
+          width: calc(33.3333% - 22px);
+          margin-right: 22px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .streamers {
+      padding-top: 45px;
+      @include padding_left;
+      &__content{
+        width: 100%;
+        padding-bottom: 0;
+        &-rate{
+          margin-top: 73px;
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: -56px;
+          .streames-popular, .streamers-interested, .top-ofline{
+            width: calc(33.3333% - 56px);
+            margin-right: 56px;
+          }
+          .streamers-interested{
+            svg{
+              path{
+                fill: #397589;
+              }
+            }
+          }
+          .top-ofline{
+            svg{
+              path{
+                fill: #BDBDBD;
+              }
+            }
+          }
+        }
+      }
+      &__vertical{
+        padding-right: 0;
+        width: 100%;
+        &-name{
+          padding-left: 0;
+        }
+        &-games{
+          padding-left: 0;
+        }
+        &-title{
+          text-align: left;
+          margin-left: -20px;
+        }
+        &-item{
+          padding-left: 31px;
+        }
+      }
+    }
+  }
+}
+.digest-article ,.streamers-article{
   .streamers{
     &__content{
       width: 100%;
@@ -32,7 +105,8 @@
 
 .digest-category-page{
   .streamers{
-    padding: 45px 0 0 100px;
+    padding-top: 45px;
+    @include padding_left;
     &__content{
       width: 100%;
       padding-bottom: 36px;
@@ -150,6 +224,31 @@
     &:hover{
       .sb-last-news__desc{
         text-decoration: underline;
+      }
+    }
+  }
+}
+.streamers-article-tree{
+  margin-top: 18px;
+  padding-bottom: 179px;
+  .streamers{
+    &__content{
+      &-rate{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .streames-popular, .streamers-interested, .top-ofline{
+          width: 26%;
+        }
+      }
+    }
+    &__vertical{
+      width: 100%;
+      &-title{
+        text-align: left;
+      }
+      &-list{
+        padding-left: 20px;
       }
     }
   }

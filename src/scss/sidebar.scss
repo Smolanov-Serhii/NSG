@@ -289,3 +289,23 @@
     }
   }
 }
+.sb-strimers-digest{
+  .streamers__content{
+    width: 100%;
+    &-list{
+      margin-top: 34px;
+      width: 100%;
+    }
+    &-item{
+      width: 100%;
+      margin-bottom: 25px;
+      margin-right: 0;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    &-sblnk{
+      margin-top: 35px;
+    }
+  }
+}
