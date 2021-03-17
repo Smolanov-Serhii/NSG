@@ -1,11 +1,5 @@
 @import "vars";
-.main-page{
-  .news{
-    .news__date{
-      display: none;
-    }
-  }
-}
+
 .slot-category-page, .casino-category-page, .news-category-page, .digest-category-page, .contacts-page, .search-result-page, .stremers-category{
   display: flex;
   .main-content{

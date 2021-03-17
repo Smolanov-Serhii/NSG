@@ -12,18 +12,64 @@ html{
   top: 0;
   left: 0;
   z-index: 99;
+  &__burger{
+    display: none;
+    cursor: pointer;
+    max-height: 21px;
+    height: 100%;
+    width: 24px;
+    &:hover{
+      span{
+        width: 100% !important;
+      }
+    }
+    @media all and (max-width: 1160px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      span{
+        height: 3px;
+        display: block;
+        background-color: white;
+        @include transition;
+        &:first-child{
+          width: 100%;
+        }
+        &:nth-child(2){
+          width: calc(100% - 6px);
+          transition-delay: 0.1s;
+        }
+        &:nth-child(3){
+          width: calc(100% - 13px);
+          transition-delay: 0.2s;
+        }
+      }
+    }
+  }
   &__bottom-nav{
     display: flex;
     margin-top: 18px;
     background-color: #F4D21F;
     border-radius: 34px 0 0 0;
     overflow: hidden;
+    @media all and (max-width: 600px) {
+      position: relative;
+      margin-left: -20px;
+      padding-left: 20px;
+      padding-right: 0;
+      margin-top: 7px;
+      border-radius: 0;
+    }
   }
   &__static-lnk{
     padding: 9px 57px;
     background-color: #2D2222;
     display: flex;
     align-items: center;
+    @media all and (max-width: 600px) {
+      padding: 9px 17px;
+    }
     a{
       font-weight: 500;
       font-size: 14px;
@@ -59,11 +105,13 @@ html{
       &:last-child{
         border-right: none;
       }
-      //&:hover{
-      //  background-color: #FFE350;
-      //  border-right: 1px solid #DCBA05;
-      //  border-left: 1px solid #FFE073;
-      //}
+      &:hover{
+        background-color: #FFE350;
+        text-decoration: underline;
+      }
+      @media all and (max-width: 600px) {
+        padding: 0 33px;
+      }
     }
     &-navigate{
       width: 52px;
@@ -72,12 +120,29 @@ html{
       margin-left: 40px;
       height: 100%;
       align-items: center;
+      @media all and (max-width: 600px) {
+        margin-left: 20px;
+      }
       div{
         width: 20px;
         height: 20px;
         cursor: pointer;
         display: flex!important;
         margin-right: 12px;
+        @media all and (max-width: 600px) {
+          background-color: #DBBA10;
+          justify-content: center;
+          height: 100%;
+        }
+        &:first-child{
+          @media all and (max-width: 600px) {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100%;
+            margin: 0;
+          }
+        }
         &:last-child{
           margin-right: 0;
         }
@@ -96,28 +161,77 @@ html{
     display: flex;
     padding-top: 14px;
     justify-content: space-between;
+    @media all and (max-width: 1160px) {
+      flex-wrap: wrap;
+    }
+    @media all and (max-width: 600px) {
+      padding: 7px 0px 0 20px;
+    }
   }
   &__logo{
     margin-right: 37px;
     width: 115px;
+    @media all and (max-width: 1160px) {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+    }
     img{
       width: 100%;
       height: auto;
+      @media all and (max-width: 1160px) {
+        width: 70px;
+      }
     }
   }
   &__navigate{
     width: calc(100% - 152px);
     display: flex;
     flex-direction: column;
+    @media all and (max-width: 1160px) {
+      width: 100%;
+    }
   }
   &__top-nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    @media all and (max-width: 1160px) {
+      display: none;
+    }
     .search-block{
       width: 21%;
       position: relative;
+      @media all and (max-width: 1300px) {
+        display: none;
+      }
+      svg{
+        margin-left: 0;
+      }
+      &__mobile{
+        display: none;
+        margin-left: 30px;
+        cursor: pointer;
+        svg{
+          @include transition;
+        }
+        &:hover{
+          svg{
+            path{
+              fill: #F4D21F;
+            }
+          }
+        }
+        @media all and (max-width: 1300px) {
+          display: flex;
+          height: 39px;
+          width: 40px;
+          justify-content: center;
+          align-items: center;
+        }
+      }
       button[type="submit"]{
         background-color: transparent;
         border: none;
@@ -155,6 +269,9 @@ html{
   }
   &__page{
     width: calc(79% - 37px);
+    @media all and (max-width: 1300px) {
+      width: 100%;
+    }
     nav{
       .page-manu{
         display: flex;
@@ -176,6 +293,9 @@ html{
             @include transition;
             img{
               margin-right: 10px;
+              @media all and (max-width: 1550px) {
+                display: none;
+              }
             }
             font-weight: 600;
             font-size: 18px;
@@ -199,6 +319,9 @@ html{
   top: 104px;
   left: 0;
   z-index: 99;
+  @media all and (max-width: 1160px) {
+    display: none;
+  }
   &__list{
     display: inline-flex;
     align-items: center;
@@ -233,6 +356,12 @@ html{
 .only-desc{
   margin-top: 45px;
   margin-bottom: 75px;
+  @media all and (max-width: 768px) {
+    margin-top: 30px;
+  }
+  @media all and (max-width: 500px) {
+    margin-bottom: 30px;
+  }
   &__title{
 
   }
@@ -245,33 +374,57 @@ html{
     padding-top: 40px;
     padding-bottom: 18px;
     position: relative;
+    @media all and (max-width: 768px) {
+      padding-top: 70px;
+    }
+    @media all and (max-width: 500px) {
+      padding-bottom: 0;
+      padding-top: 30px;
+    }
   }
   &__content{
     margin-right: -20px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    @media all and (max-width: 500px) {
+      margin-top: 34px;
+    }
     &-item{
       margin-top: 15px;
       text-align: center;
       @include transition;
+      @media all and (max-width: 500px) {
+        width: 100%;
+      }
       span{
         font-size: 14px;
         line-height: 114%;
         letter-spacing: 0.03em;
         color: #828282;
         padding: 0 10px;
+        @media all and (max-width: 1300px) {
+          padding: 0 6px;
+          font-size: 12px;
+        }
         &:first-child{
           padding-left: 0;
         }
         &:last-child{
           padding-right: 0;
         }
-        &.applies{
-          color: #828282;
-          text-decoration: underline;
-          border-right: 1px solid #828282;
-          border-left: 1px solid #828282;
+      }
+      .applies{
+        color: #828282;
+        text-decoration: underline;
+        border-right: 1px solid #828282;
+        border-left: 1px solid #828282;
+        padding: 0 10px;
+        position: relative;
+        z-index: 2;
+        @include transition;
+        &:hover{
+          color: $red-color;
         }
       }
     }
@@ -284,21 +437,55 @@ html{
     border-radius: 10px;
     overflow: hidden;
     padding-bottom: 16px;
-    //@include transition;
-    //&:hover{
-    //  box-shadow: 0 0 25px rgba(16, 53, 187, 0.28);
-    //  transform: translateY(-10px);
-    //  margin-bottom: 35px;
-    //  .best-casinos__permalink{
-    //    margin-top: 26px;
-    //  }
-    //  .best-casinos__content-item{
-    //    margin-top: 18px;
-    //  }
-    //}
+    position: relative;
+    @media all and (max-width: 1200px) {
+      width: calc(25% - 20px);
+      &:nth-child(8n + 1){
+        display: none;
+      }
+    }
+    @media all and (max-width: 1000px) {
+      width: calc(33.3333% - 20px);
+      &:nth-child(8n + 1){
+        display: block;
+      }
+      &:nth-child(10n + 1){
+        display: none;
+      }
+    }
+    @media all and (max-width: 768px) {
+      width: calc(50% - 20px);
+      margin-bottom: 20px;
+      &:nth-child(8n + 1){
+        display: block;
+      }
+      &:nth-child(9n + 1){
+        display: none;
+      }
+      &:nth-child(10n + 1){
+        display: none;
+      }
+    }
+    @media all and (max-width: 500px) {
+      width: 100%;
+      overflow: visible;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &-lnk{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
   }
   &__img{
     position: relative;
+    @media all and (max-width: 500px) {
+      width: calc(50% - 10px);
+    }
     picture{
       width: 100%;
       height: 100%;
@@ -307,6 +494,10 @@ html{
       object-fit: cover;
       width: 100%;
       height: 100%;
+      @media all and (max-width: 500px) {
+        overflow: hidden;
+        border-radius: 10px 0 0 0;
+      }
     }
     .place{
       background-image: url("../../images/img-test/place-bg.svg");
@@ -327,6 +518,13 @@ html{
       color: #FF2F38;
       width: 39px;
       height: 62px;
+      @media all and (max-width: 500px) {
+        background-image: url("../../images/img-test/place-bg-mob.svg");
+        height: 40px;
+        top: -20px;
+        left: 8px;
+        font-weight: 700;
+      }
     }
     .rate{
       position: absolute;
@@ -347,6 +545,15 @@ html{
       position: absolute;
       top: 12px;
       right: 10px;
+      z-index: 2;
+      @media all and (max-width: 500px) {
+        width: 16px;
+        height: 16px;
+        svg{
+          width: 100%;
+          height: auto;
+        }
+      }
     }
     .country{
       position: absolute;
@@ -364,6 +571,11 @@ html{
   &__permalink{
     margin-top: 15px;
     @include transition;
+    z-index: 2;
+    position: relative;
+    @media all and (max-width: 1300px) {
+      width: calc(100% - 20px);
+    }
   }
   &__title-item{
     background-color: #00DB5C;
@@ -374,11 +586,29 @@ html{
     letter-spacing: 0.03em;
     color: #FFFFFF;
     padding: 8px;
+    @media all and (max-width: 1530px) {
+      font-size: 16px;
+    }
+    @media all and (max-width: 1300px) {
+      font-size: 14px;
+    }
+    @media all and (max-width: 500px) {
+      width: calc(50% - 10px);
+      margin-left: 20px;
+      background-color: transparent;
+      color: #00DB5C;
+      text-align: left;
+      padding-left: 0;
+      padding-top: 14px;
+      font-size: 16px;
+      line-height: 118%;
+    }
   }
   &__lnk{
     position: absolute;
     top: 0;
     right: 0;
+    @include right-btn;
   }
 }
 .streamers{
@@ -425,7 +655,7 @@ html{
       @include transition;
     }
     &-img{
-      height: 249px;
+      //height: 249px;
       @include transition;
       picture{
         width: 100%;
@@ -644,7 +874,7 @@ html{
     }
     &-img{
       position: relative;
-      height: 201px;
+      //height: 201px;
       picture{
         width: 100%;
         height: 100%;
@@ -682,6 +912,17 @@ html{
       overflow: hidden;
     }
   }
+  .slick-list{
+    padding: 20px 20px 20px 20px;
+    margin: -20px;
+    .slick-slide{
+      opacity: 0;
+      @include transition;
+      &.slick-active{
+        opacity: 1;
+      }
+    }
+  }
   &__tab{
     padding: 10px 44px;
     background-color: #DE1019;
@@ -694,6 +935,9 @@ html{
     color: #FFFFFF;
     margin-bottom: 0;
     cursor: pointer;
+    &:before{
+      display: none;
+    }
     &.active-tab{
       background-color: #FF2F38;
     }
@@ -807,7 +1051,8 @@ html{
     @include transition;
   }
   &__img{
-    height: 366px;
+    max-height: 366px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
     picture{
@@ -849,7 +1094,7 @@ html{
   &__container{
     position: relative;
   }
-  &-lnk{
+  &__lnk{
     position: absolute;
     right: 0;
     top: 0;
@@ -990,8 +1235,9 @@ html{
     }
   }
   &__image{
-    height: 188px;
+    //height: 188px;
     overflow: hidden;
+    position: relative;
     picture{
       display: block;
       img{
@@ -1005,6 +1251,19 @@ html{
     position: absolute;
     top: 0;
     right: 0;
+  }
+  &__date{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    padding: 7px 43px 7px 20px;
+    background-color: rgba(45,34,34,0.5);
+    border-radius: 0 40px 0 0;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
   }
 }
 .text-block{
@@ -1086,6 +1345,9 @@ html{
       display: flex;
       align-items: center;
       justify-content: center;
+      svg{
+        margin-left: 0;
+      }
     }
     input{
       padding: 13px 19px 12px 19px;
@@ -1164,7 +1426,7 @@ html{
       margin-top: 55px;
     }
     .newonline__slots-img{
-      height: 180px;
+      //height: 180px;
     }
     .newonline__slots-subtitle{
       margin-top: 25px;
@@ -1195,7 +1457,7 @@ html{
         margin-top: 75px;
       }
       &-img{
-        height: 179px;
+        //height: 179px;
       }
       &-content{
         padding: 13px 15px 12px 15px;
@@ -1261,8 +1523,8 @@ html{
     margin-bottom: 30px;
   }
   &__container{
-    display: flex;
-    flex-wrap: wrap;
+    //display: flex;
+    //flex-wrap: wrap;
   }
   &__content{
     margin-top: 45px;
@@ -1275,6 +1537,8 @@ html{
     border-radius: 10px;
     height: 474px;
     overflow: hidden;
+    float: left;
+    margin-bottom: 48px;
     picture{
       width: 100%;
       height: 100%;

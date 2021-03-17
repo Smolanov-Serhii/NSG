@@ -20,15 +20,13 @@ include("template-parts/breadcrumbs.php");
                         Source: <span>AvatarUX</span>
                     </div>
                 </div>
-                <div class="single-news-article__desc">
-                    <p>In collaboration with Yggdrasil Gaming, AvatarUX launches today their first €20K PopWins™
-                        Prize Drop. The campaign forms part of Yggdrasil's €80K Lucky March promotion, which has
-                        been running since the 1st of March</p>
-                    <p>Friday, 12 March 2021</p>
-                    <p>The PopWins™ €20k Prize Drop goes live on the 12th of March 2021 at 10:00CET and runs until the 14th of March 2021.</p>
-                    <p>The Campaign includes all of AvatarUXs stellar slot titles, including its most popular game to date CherryPop™ and its latest game released TikiPop™</p>
-                    <p>The promotion gives players one chance to win a random mystery prize, for every real money bet placed on <a href="#">BountyPop™</a>, <a href="#">CherryPop™</a>, <a href="#">WildPops™</a> or <a href="#">TikiPop™</a>, at qualifying casinos.</p>
-                </div>
+                <p>In collaboration with Yggdrasil Gaming, AvatarUX launches today their first €20K PopWins™
+                    Prize Drop. The campaign forms part of Yggdrasil's €80K Lucky March promotion, which has
+                    been running since the 1st of March</p>
+                <p>Friday, 12 March 2021</p>
+                <p>The PopWins™ €20k Prize Drop goes live on the 12th of March 2021 at 10:00CET and runs until the 14th of March 2021.</p>
+                <p>The Campaign includes all of AvatarUXs stellar slot titles, including its most popular game to date CherryPop™ and its latest game released TikiPop™</p>
+                <p>The promotion gives players one chance to win a random mystery prize, for every real money bet placed on <a href="#">BountyPop™</a>, <a href="#">CherryPop™</a>, <a href="#">WildPops™</a> or <a href="#">TikiPop™</a>, at qualifying casinos.</p>
                 <div class="single-news-article__content">
                     <p>Thee promo gives out almost 500 prizes worth a total of €20,000 – ranging from 220 x €10 prizes, 4 x €500,
                         2 x €1,000 and a super unique win of €5,000 to one lucky player.</p>

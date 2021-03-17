@@ -1,6 +1,3 @@
-.main-page .news .news__date {
-  display: none; }
-
 .slot-category-page, .casino-category-page, .news-category-page, .digest-category-page, .contacts-page, .search-result-page, .stremers-category {
   display: flex; }
   .slot-category-page .main-content, .casino-category-page .main-content, .news-category-page .main-content, .digest-category-page .main-content, .contacts-page .main-content, .search-result-page .main-content, .stremers-category .main-content {
@@ -29,6 +26,12 @@
   @media all and (max-width: 1800px) {
     .stremers-category .main-content .streamers {
       padding-left: 100px; } }
+  @media all and (max-width: 1400px) {
+    .stremers-category .main-content .streamers {
+      padding-left: 50px; } }
+  @media all and (max-width: 768px) {
+    .stremers-category .main-content .streamers {
+      padding-left: 20px; } }
   .stremers-category .main-content .streamers__content {
     width: 100%;
     padding-bottom: 0; }
@@ -71,6 +74,12 @@
   @media all and (max-width: 1800px) {
     .digest-category-page .streamers {
       padding-left: 100px; } }
+  @media all and (max-width: 1400px) {
+    .digest-category-page .streamers {
+      padding-left: 50px; } }
+  @media all and (max-width: 768px) {
+    .digest-category-page .streamers {
+      padding-left: 20px; } }
   .digest-category-page .streamers__content {
     width: 100%;
     padding-bottom: 36px; }

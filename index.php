@@ -25,6 +25,7 @@ include("template-parts/breadcrumbs.php");
                 <h2 class="best-casinos__title">Play Real Money Slots Online and Win!</h2>
                 <div class="best-casinos__content">
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -56,11 +57,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -92,11 +94,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="#" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -128,11 +131,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -164,11 +168,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -200,11 +205,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -236,11 +242,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -272,11 +279,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -308,11 +316,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -344,11 +353,12 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>
                     <div class="best-casinos__item">
+                        <a href="#" class="best-casinos__item-lnk"></a>
                         <div class="best-casinos__img">
                             <img src="images/img-test/304x201.jpg" alt="test">
                             <div class="place">1</div>
@@ -380,7 +390,7 @@ include("template-parts/breadcrumbs.php");
                         </a>
                         <div class="best-casinos__content-item">
                             <span class="age">18+</span>
-                            <span class="applies">T&C applies</span>
+                            <a href="" class="applies">T&C applies</a>
                             <span class="safe">Play Safe</span>
                         </div>
                     </div>

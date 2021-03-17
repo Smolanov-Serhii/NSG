@@ -371,18 +371,12 @@ p, pre {
   @media all and (max-width: 1200px) {
     p, pre {
       font-size: 17px; } }
-  @media all and (max-width: 1024px) {
-    p, pre {
-      font-size: 16px; } }
   @media all and (max-width: 768px) {
     p, pre {
-      font-size: 15px; } }
-  @media all and (max-width: 500px) {
-    p, pre {
-      font-size: 14px; } }
-  @media all and (max-width: 400px) {
-    p, pre {
-      font-size: 12px; } }
+      font-size: 16px;
+      line-height: 140.9%; }
+      p a, pre a {
+        text-decoration: underline; } }
 
 h1 {
   font-weight: 700;
@@ -390,15 +384,6 @@ h1 {
   @media all and (max-width: 1200px) {
     h1 {
       font-size: 30px; } }
-  @media all and (max-width: 1024px) {
-    h1 {
-      font-size: 24px; } }
-  @media all and (max-width: 768px) {
-    h1 {
-      font-size: 18px; } }
-  @media all and (max-width: 500px) {
-    h1 {
-      font-size: 14px; } }
 
 ul, ol {
   list-style: disk;
@@ -432,31 +417,34 @@ h2 {
       font-size: 34px; } }
   @media all and (max-width: 1024px) {
     h2 {
-      font-size: 26px; } }
-  @media all and (max-width: 768px) {
-    h2 {
-      font-size: 18px; } }
-  @media all and (max-width: 500px) {
-    h2 {
-      font-size: 10px; } }
+      font-size: 24px; } }
 
 h3 {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.15em;
   letter-spacing: 0.03em; }
+  @media all and (max-width: 1024px) {
+    h3 {
+      font-size: 18px; } }
 
 h4 {
-  font-weight: 700;
-  font-size: 30px; }
+  font-weight: 500;
+  font-size: 18px; }
+  @media all and (max-width: 1024px) {
+    h4 {
+      font-size: 18px; } }
 
 h5 {
-  font-weight: 700;
-  font-size: 24px; }
+  font-weight: 500;
+  font-size: 18px; }
+  @media all and (max-width: 1024px) {
+    h5 {
+      font-size: 16px; } }
 
 h6 {
-  font-weight: 700;
-  font-size: 18px; }
+  font-weight: 400;
+  font-size: 16px; }
 
 * {
   box-sizing: border-box; }
@@ -473,19 +461,51 @@ body {
     .container-wide {
       width: 100%;
       padding: 0 100px;
+      padding-right: calc((100vw - 1600px) / 2);
+      padding-left: calc((100vw - 1600px) / 2);
       margin: auto; } }
+  @media all and (max-width: 1800px) and (max-width: 1800px) {
+    .container-wide {
+      padding-right: 100px; } }
+  @media all and (max-width: 1800px) and (max-width: 1400px) {
+    .container-wide {
+      padding-right: 50px; } }
+  @media all and (max-width: 1800px) and (max-width: 768px) {
+    .container-wide {
+      padding-right: 20px; } }
+  @media all and (max-width: 1800px) and (max-width: 1800px) {
+    .container-wide {
+      padding-left: 100px; } }
+  @media all and (max-width: 1800px) and (max-width: 1400px) {
+    .container-wide {
+      padding-left: 50px; } }
+  @media all and (max-width: 1800px) and (max-width: 768px) {
+    .container-wide {
+      padding-left: 20px; } }
 
 .right-padding {
   padding-right: calc((100vw - 1600px) / 2); }
   @media all and (max-width: 1800px) {
     .right-padding {
       padding-right: 100px; } }
+  @media all and (max-width: 1400px) {
+    .right-padding {
+      padding-right: 50px; } }
+  @media all and (max-width: 768px) {
+    .right-padding {
+      padding-right: 20px; } }
 
 .left-padding {
   padding-left: calc((100vw - 1600px) / 2); }
   @media all and (max-width: 1800px) {
     .left-padding {
       padding-left: 100px; } }
+  @media all and (max-width: 1400px) {
+    .left-padding {
+      padding-left: 50px; } }
+  @media all and (max-width: 768px) {
+    .left-padding {
+      padding-left: 20px; } }
 
 .full-width-button, button[type="submit"] {
   padding: 9px 10px 11px 10px;
@@ -517,6 +537,24 @@ body {
   font-size: 18px;
   line-height: 122%;
   transition: 0.2s; }
+  @media all and (max-width: 1800px) {
+    .red-btn {
+      right: 100px; } }
+  @media all and (max-width: 1400px) {
+    .red-btn {
+      right: 50px; } }
+  @media all and (max-width: 768px) {
+    .red-btn {
+      right: 20px; } }
+  @media all and (max-width: 500px) {
+    .red-btn {
+      width: 100%;
+      position: static;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-radius: 0 50px 0 0;
+      display: flex;
+      justify-content: center; } }
   .red-btn svg {
     margin-left: 16px; }
   .red-btn:hover {
@@ -610,6 +648,17 @@ form .row input {
 form .row textarea {
   margin-top: 13px; }
 
+.slick-dots li:before {
+  content: "";
+  padding-right: 0; }
+
+.best-casinos__item, .streamers__content-item, .newonline__slots-item, .popular .popular__slide, .top-slots__item, .news__item {
+  transition: all 0.2s;
+  cursor: pointer; }
+  .best-casinos__item:hover, .streamers__content-item:hover, .newonline__slots-item:hover, .popular .popular__slide:hover, .top-slots__item:hover, .news__item:hover {
+    box-shadow: 0 0 25px rgba(16, 53, 187, 0.28);
+    transform: scale(1.02); }
+
 html {
   font-feature-settings: 'pnum' on, 'lnum' on; }
 
@@ -619,17 +668,56 @@ html {
   top: 0;
   left: 0;
   z-index: 99; }
+  .header__burger {
+    display: none;
+    cursor: pointer;
+    max-height: 21px;
+    height: 100%;
+    width: 24px; }
+    .header__burger:hover span {
+      width: 100% !important; }
+    @media all and (max-width: 1160px) {
+      .header__burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end; }
+        .header__burger span {
+          height: 3px;
+          display: block;
+          background-color: white;
+          transition: 0.1s;
+          transition-timing-function: ease-in; }
+          .header__burger span:first-child {
+            width: 100%; }
+          .header__burger span:nth-child(2) {
+            width: calc(100% - 6px);
+            transition-delay: 0.1s; }
+          .header__burger span:nth-child(3) {
+            width: calc(100% - 13px);
+            transition-delay: 0.2s; } }
   .header__bottom-nav {
     display: flex;
     margin-top: 18px;
     background-color: #F4D21F;
     border-radius: 34px 0 0 0;
     overflow: hidden; }
+    @media all and (max-width: 600px) {
+      .header__bottom-nav {
+        position: relative;
+        margin-left: -20px;
+        padding-left: 20px;
+        padding-right: 0;
+        margin-top: 7px;
+        border-radius: 0; } }
   .header__static-lnk {
     padding: 9px 57px;
     background-color: #2D2222;
     display: flex;
     align-items: center; }
+    @media all and (max-width: 600px) {
+      .header__static-lnk {
+        padding: 9px 17px; } }
     .header__static-lnk a {
       font-weight: 500;
       font-size: 14px;
@@ -662,6 +750,12 @@ html {
       white-space: nowrap; }
       .header__slots-item:last-child {
         border-right: none; }
+      .header__slots-item:hover {
+        background-color: #FFE350;
+        text-decoration: underline; }
+      @media all and (max-width: 600px) {
+        .header__slots-item {
+          padding: 0 33px; } }
     .header__slots-navigate {
       width: 52px;
       display: flex;
@@ -669,12 +763,27 @@ html {
       margin-left: 40px;
       height: 100%;
       align-items: center; }
+      @media all and (max-width: 600px) {
+        .header__slots-navigate {
+          margin-left: 20px; } }
       .header__slots-navigate div {
         width: 20px;
         height: 20px;
         cursor: pointer;
         display: flex !important;
         margin-right: 12px; }
+        @media all and (max-width: 600px) {
+          .header__slots-navigate div {
+            background-color: #DBBA10;
+            justify-content: center;
+            height: 100%; } }
+        @media all and (max-width: 600px) {
+          .header__slots-navigate div:first-child {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100%;
+            margin: 0; } }
         .header__slots-navigate div:last-child {
           margin-right: 0; }
         .header__slots-navigate div.swiper-button-disabled {
@@ -687,24 +796,66 @@ html {
     display: flex;
     padding-top: 14px;
     justify-content: space-between; }
+    @media all and (max-width: 1160px) {
+      .header__container {
+        flex-wrap: wrap; } }
+    @media all and (max-width: 600px) {
+      .header__container {
+        padding: 7px 0px 0 20px; } }
   .header__logo {
     margin-right: 37px;
     width: 115px; }
+    @media all and (max-width: 1160px) {
+      .header__logo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center; } }
     .header__logo img {
       width: 100%;
       height: auto; }
+      @media all and (max-width: 1160px) {
+        .header__logo img {
+          width: 70px; } }
   .header__navigate {
     width: calc(100% - 152px);
     display: flex;
     flex-direction: column; }
+    @media all and (max-width: 1160px) {
+      .header__navigate {
+        width: 100%; } }
   .header__top-nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center; }
+    @media all and (max-width: 1160px) {
+      .header__top-nav {
+        display: none; } }
     .header__top-nav .search-block {
       width: 21%;
       position: relative; }
+      @media all and (max-width: 1300px) {
+        .header__top-nav .search-block {
+          display: none; } }
+      .header__top-nav .search-block svg {
+        margin-left: 0; }
+      .header__top-nav .search-block__mobile {
+        display: none;
+        margin-left: 30px;
+        cursor: pointer; }
+        .header__top-nav .search-block__mobile svg {
+          transition: 0.1s;
+          transition-timing-function: ease-in; }
+        .header__top-nav .search-block__mobile:hover svg path {
+          fill: #F4D21F; }
+        @media all and (max-width: 1300px) {
+          .header__top-nav .search-block__mobile {
+            display: flex;
+            height: 39px;
+            width: 40px;
+            justify-content: center;
+            align-items: center; } }
       .header__top-nav .search-block button[type="submit"] {
         background-color: transparent;
         border: none;
@@ -737,6 +888,9 @@ html {
           font-weight: 400; }
   .header__page {
     width: calc(79% - 37px); }
+    @media all and (max-width: 1300px) {
+      .header__page {
+        width: 100%; } }
     .header__page nav .page-manu {
       display: flex;
       justify-content: space-between;
@@ -760,6 +914,9 @@ html {
           color: #FFFFFF; }
           .header__page nav .page-manu li a img {
             margin-right: 10px; }
+            @media all and (max-width: 1550px) {
+              .header__page nav .page-manu li a img {
+                display: none; } }
         .header__page nav .page-manu li.active-menu a {
           color: #F4D21F; }
 
@@ -768,6 +925,9 @@ html {
   top: 104px;
   left: 0;
   z-index: 99; }
+  @media all and (max-width: 1160px) {
+    .breadcrumbs {
+      display: none; } }
   .breadcrumbs__list {
     display: inline-flex;
     align-items: center;
@@ -781,6 +941,12 @@ html {
     @media all and (max-width: 1800px) {
       .breadcrumbs__list {
         padding-left: 100px; } }
+    @media all and (max-width: 1400px) {
+      .breadcrumbs__list {
+        padding-left: 50px; } }
+    @media all and (max-width: 768px) {
+      .breadcrumbs__list {
+        padding-left: 20px; } }
   .breadcrumbs span {
     color: #2D2222; }
   .breadcrumbs a {
@@ -799,6 +965,12 @@ html {
 .only-desc {
   margin-top: 45px;
   margin-bottom: 75px; }
+  @media all and (max-width: 768px) {
+    .only-desc {
+      margin-top: 30px; } }
+  @media all and (max-width: 500px) {
+    .only-desc {
+      margin-bottom: 30px; } }
   .only-desc__content {
     margin-top: 20px; }
 
@@ -806,32 +978,56 @@ html {
   padding-top: 40px;
   padding-bottom: 18px;
   position: relative; }
+  @media all and (max-width: 768px) {
+    .best-casinos__container {
+      padding-top: 70px; } }
+  @media all and (max-width: 500px) {
+    .best-casinos__container {
+      padding-bottom: 0;
+      padding-top: 30px; } }
 
 .best-casinos__content {
   margin-right: -20px;
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px; }
+  @media all and (max-width: 500px) {
+    .best-casinos__content {
+      margin-top: 34px; } }
   .best-casinos__content-item {
     margin-top: 15px;
     text-align: center;
     transition: 0.1s;
     transition-timing-function: ease-in; }
+    @media all and (max-width: 500px) {
+      .best-casinos__content-item {
+        width: 100%; } }
     .best-casinos__content-item span {
       font-size: 14px;
       line-height: 114%;
       letter-spacing: 0.03em;
       color: #828282;
       padding: 0 10px; }
+      @media all and (max-width: 1300px) {
+        .best-casinos__content-item span {
+          padding: 0 6px;
+          font-size: 12px; } }
       .best-casinos__content-item span:first-child {
         padding-left: 0; }
       .best-casinos__content-item span:last-child {
         padding-right: 0; }
-      .best-casinos__content-item span.applies {
-        color: #828282;
-        text-decoration: underline;
-        border-right: 1px solid #828282;
-        border-left: 1px solid #828282; }
+    .best-casinos__content-item .applies {
+      color: #828282;
+      text-decoration: underline;
+      border-right: 1px solid #828282;
+      border-left: 1px solid #828282;
+      padding: 0 10px;
+      position: relative;
+      z-index: 2;
+      transition: 0.1s;
+      transition-timing-function: ease-in; }
+      .best-casinos__content-item .applies:hover {
+        color: #FF2F38; }
 
 .best-casinos__item {
   width: calc(20% - 20px);
@@ -840,10 +1036,49 @@ html {
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
-  padding-bottom: 16px; }
+  padding-bottom: 16px;
+  position: relative; }
+  @media all and (max-width: 1200px) {
+    .best-casinos__item {
+      width: calc(25% - 20px); }
+      .best-casinos__item:nth-child(8n + 1) {
+        display: none; } }
+  @media all and (max-width: 1000px) {
+    .best-casinos__item {
+      width: calc(33.3333% - 20px); }
+      .best-casinos__item:nth-child(8n + 1) {
+        display: block; }
+      .best-casinos__item:nth-child(10n + 1) {
+        display: none; } }
+  @media all and (max-width: 768px) {
+    .best-casinos__item {
+      width: calc(50% - 20px);
+      margin-bottom: 20px; }
+      .best-casinos__item:nth-child(8n + 1) {
+        display: block; }
+      .best-casinos__item:nth-child(9n + 1) {
+        display: none; }
+      .best-casinos__item:nth-child(10n + 1) {
+        display: none; } }
+  @media all and (max-width: 500px) {
+    .best-casinos__item {
+      width: 100%;
+      overflow: visible;
+      display: flex;
+      flex-wrap: wrap; } }
+  .best-casinos__item-lnk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
 
 .best-casinos__img {
   position: relative; }
+  @media all and (max-width: 500px) {
+    .best-casinos__img {
+      width: calc(50% - 10px); } }
   .best-casinos__img picture {
     width: 100%;
     height: 100%; }
@@ -851,6 +1086,10 @@ html {
     object-fit: cover;
     width: 100%;
     height: 100%; }
+    @media all and (max-width: 500px) {
+      .best-casinos__img img {
+        overflow: hidden;
+        border-radius: 10px 0 0 0; } }
   .best-casinos__img .place {
     background-image: url("../../images/img-test/place-bg.svg");
     background-position: center;
@@ -870,6 +1109,13 @@ html {
     color: #FF2F38;
     width: 39px;
     height: 62px; }
+    @media all and (max-width: 500px) {
+      .best-casinos__img .place {
+        background-image: url("../../images/img-test/place-bg-mob.svg");
+        height: 40px;
+        top: -20px;
+        left: 8px;
+        font-weight: 700; } }
   .best-casinos__img .rate {
     position: absolute;
     bottom: 9px;
@@ -886,7 +1132,15 @@ html {
   .best-casinos__img .info {
     position: absolute;
     top: 12px;
-    right: 10px; }
+    right: 10px;
+    z-index: 2; }
+    @media all and (max-width: 500px) {
+      .best-casinos__img .info {
+        width: 16px;
+        height: 16px; }
+        .best-casinos__img .info svg {
+          width: 100%;
+          height: auto; } }
   .best-casinos__img .country {
     position: absolute;
     bottom: 15px;
@@ -901,7 +1155,12 @@ html {
 .best-casinos__permalink {
   margin-top: 15px;
   transition: 0.1s;
-  transition-timing-function: ease-in; }
+  transition-timing-function: ease-in;
+  z-index: 2;
+  position: relative; }
+  @media all and (max-width: 1300px) {
+    .best-casinos__permalink {
+      width: calc(100% - 20px); } }
 
 .best-casinos__title-item {
   background-color: #00DB5C;
@@ -912,11 +1171,46 @@ html {
   letter-spacing: 0.03em;
   color: #FFFFFF;
   padding: 8px; }
+  @media all and (max-width: 1530px) {
+    .best-casinos__title-item {
+      font-size: 16px; } }
+  @media all and (max-width: 1300px) {
+    .best-casinos__title-item {
+      font-size: 14px; } }
+  @media all and (max-width: 500px) {
+    .best-casinos__title-item {
+      width: calc(50% - 10px);
+      margin-left: 20px;
+      background-color: transparent;
+      color: #00DB5C;
+      text-align: left;
+      padding-left: 0;
+      padding-top: 14px;
+      font-size: 16px;
+      line-height: 118%; } }
 
 .best-casinos__lnk {
   position: absolute;
   top: 0;
   right: 0; }
+  @media all and (max-width: 1800px) {
+    .best-casinos__lnk {
+      right: 100px; } }
+  @media all and (max-width: 1400px) {
+    .best-casinos__lnk {
+      right: 50px; } }
+  @media all and (max-width: 768px) {
+    .best-casinos__lnk {
+      right: 20px; } }
+  @media all and (max-width: 500px) {
+    .best-casinos__lnk {
+      width: 100%;
+      position: static;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-radius: 0 50px 0 0;
+      display: flex;
+      justify-content: center; } }
 
 .streamers {
   padding: 78px 0 19px 0; }
@@ -946,7 +1240,6 @@ html {
       transition: 0.1s;
       transition-timing-function: ease-in; }
     .streamers__content-img {
-      height: 249px;
       transition: 0.1s;
       transition-timing-function: ease-in; }
       .streamers__content-img picture {
@@ -1129,8 +1422,7 @@ html {
       border-radius: 10px;
       overflow: hidden; }
     .newonline__slots-img {
-      position: relative;
-      height: 201px; }
+      position: relative; }
       .newonline__slots-img picture {
         width: 100%;
         height: 100%; }
@@ -1160,6 +1452,15 @@ html {
     justify-content: flex-end;
     align-items: center;
     overflow: hidden; }
+  .popular .slick-list {
+    padding: 20px 20px 20px 20px;
+    margin: -20px; }
+    .popular .slick-list .slick-slide {
+      opacity: 0;
+      transition: 0.1s;
+      transition-timing-function: ease-in; }
+      .popular .slick-list .slick-slide.slick-active {
+        opacity: 1; }
   .popular__tab {
     padding: 10px 44px;
     background-color: #DE1019;
@@ -1172,6 +1473,8 @@ html {
     color: #FFFFFF;
     margin-bottom: 0;
     cursor: pointer; }
+    .popular__tab:before {
+      display: none; }
     .popular__tab.active-tab {
       background-color: #FF2F38; }
     .popular__tab:first-child {
@@ -1257,7 +1560,8 @@ html {
     transition: 0.1s;
     transition-timing-function: ease-in; }
   .peoples__img {
-    height: 366px;
+    max-height: 366px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden; }
     .peoples__img picture {
@@ -1288,7 +1592,7 @@ html {
     padding-top: 42px; }
   .top-slots__container {
     position: relative; }
-  .top-slots-lnk {
+  .top-slots__lnk {
     position: absolute;
     right: 0;
     top: 0; }
@@ -1407,8 +1711,8 @@ html {
       letter-spacing: 0.03em;
       color: #2D2222; }
   .news__image {
-    height: 188px;
-    overflow: hidden; }
+    overflow: hidden;
+    position: relative; }
     .news__image picture {
       display: block; }
       .news__image picture img {
@@ -1419,6 +1723,18 @@ html {
     position: absolute;
     top: 0;
     right: 0; }
+  .news__date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    padding: 7px 43px 7px 20px;
+    background-color: rgba(45, 34, 34, 0.5);
+    border-radius: 0 40px 0 0;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%; }
 
 .text-block {
   padding-top: 32px;
@@ -1482,6 +1798,8 @@ html {
       display: flex;
       align-items: center;
       justify-content: center; }
+      .footer__search button[type="submit"] svg {
+        margin-left: 0; }
     .footer__search input {
       padding: 13px 19px 12px 19px;
       width: 100%;
@@ -1544,8 +1862,6 @@ html {
     margin-bottom: 45px; }
   .category-first__content .newonline__slots-list {
     margin-top: 55px; }
-  .category-first__content .newonline__slots-img {
-    height: 180px; }
   .category-first__content .newonline__slots-subtitle {
     margin-top: 25px; }
   .category-first__content .newonline__slots-content {
@@ -1563,9 +1879,6 @@ html {
 
 .cat-main-content .newonline__slots-list {
   margin-top: 75px; }
-
-.cat-main-content .newonline__slots-img {
-  height: 179px; }
 
 .cat-main-content .newonline__slots-content {
   padding: 13px 15px 12px 15px; }
@@ -1615,9 +1928,6 @@ html {
   padding-top: 45px; }
   .single-news-article__title {
     margin-bottom: 30px; }
-  .single-news-article__container {
-    display: flex;
-    flex-wrap: wrap; }
   .single-news-article__content {
     margin-top: 45px; }
   .single-news-article__img {
@@ -1627,7 +1937,9 @@ html {
     filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.15));
     border-radius: 10px;
     height: 474px;
-    overflow: hidden; }
+    overflow: hidden;
+    float: left;
+    margin-bottom: 48px; }
     .single-news-article__img picture {
       width: 100%;
       height: 100%;

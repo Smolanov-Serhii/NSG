@@ -76,10 +76,10 @@ $(document ).ready(function() {
     if ($('.popular').length){
         $('.popular__tabs-list .popular__tab').click(function() {
             $('.popular__tabs-list .popular__tab').removeClass('active-tab');
+            $('.popular .popular__slider').removeClass('active-tab');
             $(this).addClass('active-tab');
             let CurrentId = $(this).data('id');
             let NeedElem = $("#"+CurrentId+"");
-            $('.popular .popular__slider').removeClass('active-tab');
             NeedElem.addClass('active-tab');
             $(".popular .popular__slider-wrapper").slick('slickSetOption', 'adaptiveHeight', true, true);
 

@@ -19,6 +19,12 @@ $transition: 0.2s;
   @media all and (max-width: 1800px) {
     padding-left: 100px;
   }
+  @media all and (max-width: 1400px) {
+    padding-left: 50px;
+  }
+  @media all and (max-width: 768px) {
+    padding-left: 20px;
+  }
 }
 
 @mixin padding_right {
@@ -26,8 +32,35 @@ $transition: 0.2s;
   @media all and (max-width: 1800px) {
     padding-right: 100px;
   }
+  @media all and (max-width: 1400px) {
+    padding-right: 50px;
+  }
+  @media all and (max-width: 768px) {
+    padding-right: 20px;
+  }
 }
 @mixin transition{
   transition: 0.1s;
   transition-timing-function: ease-in;
+}
+
+@mixin right-btn{
+  @media all and (max-width: 1800px) {
+    right: 100px;
+  }
+  @media all and (max-width: 1400px) {
+    right: 50px;
+  }
+  @media all and (max-width: 768px) {
+    right: 20px;
+  }
+  @media all and (max-width: 500px) {
+    width: 100%;
+    position: static;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 0 50px 0 0;
+    display: flex;
+    justify-content: center;
+  }
 }
